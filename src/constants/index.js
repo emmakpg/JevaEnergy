@@ -9,9 +9,10 @@ import { MdEngineering } from "react-icons/md";
 
 export const navLinks = [
     { href: "/", label: "Home"},
-    { href: "#about", label: "About Us", submenuAbout:[{ href: "/", label: "Core Values" },
+    { href: "#about", label: "About Us", submenuAbout:[{ href: "/about/vision-&-mission", label: "Vision & Mission" },
+        { href: "/about/core-values", label: "Core Values" },
         { href: "/", label: "Our Journey" },
-        { href: "/", label: "Our Management Team" },
+        { href: "/management-team", label: "Our Management Team" },
         { href: "/", label: "Corporate Social Responsibilities" }] },
     { href: "#services", label: "Services", submenuServices:[{ href: "/services/marine-support", label: "Marine Support Services" },
         { href: "/services/consultancy-services/", label: "General Consultancy Services" },
@@ -52,8 +53,8 @@ export const ServicesHome =[
 
 
 export const miscLinks = [
-    { href: "/", label: "Core Values"},
-    { href: "", label: "Our Team"}, 
+    { href: "/core-values", label: "Core Values"},
+    { href: "/management-team", label: "Our Team"}, 
         
     { href: "/", label: "Industries"}, 
       
@@ -84,37 +85,58 @@ export const hero = [
     },
 ];
 
-export const About = {
-    content: "Jeva Energy & Solutions, established in 2023, is a trailblazer in Ghana’s oil and gas industry, dedicated to reshaping Africa’s energy sector. As a fully Ghanaian-owned enterprise, we provide a comprehensive range of services tailored to the dynamic needs of the oil and gas market. Our capabilities encompass both upstream and downstream operations, delivering integrated solutions for a wide array of client requirements. From marine support and equipment supply to premium petroleum products and strategic consultancy, we are committed to offering exceptional value and innovation. At Jeva Energy & Solutions, we strive to elevate industry standards, utilizing our local insights and global expertise to promote sustainable growth and operational excellence throughout Africa.",
-    vision: "To revolutionize the oil and gas industry in Africa by setting new standards of excellence, innovation, and environmental responsibility. We aspire to be recognized as the epitome of reliability and sustainability in the sector, delivering top-notch products and services that enhance the quality of life and contribute to the growth and prosperity of our communities and the broader industry.",
-    mission:"To be the leading provider of high-quality, specialized products and services in the oil and gas sector, driven by exceptional business ethics and a deep understanding of market dynamics. We are committed to optimizing value for our clients and stakeholders through innovative solutions, operational excellence, and a steadfast dedication to sustainability and community development.",
+export const AboutContent = {
+    about_content: `Jeva Energy & Solutions, established in 2023, is a trailblazer in Ghana’s oil and gas industry,
+     dedicated to reshaping Africa’s energy sector. As a fully Ghanaian-owned enterprise, we provide a comprehensive range of services
+      tailored to the dynamic needs of the oil and gas market. Our capabilities encompass both upstream and downstream operations, 
+      delivering integrated solutions for a wide array of client requirements. From marine support and equipment supply to premium 
+      petroleum products and strategic consultancy, we are committed to offering exceptional value and innovation. 
+      At Jeva Energy & Solutions, we strive to elevate industry standards, utilizing our local insights and global expertise to promote
+       sustainable growth and operational excellence throughout Africa.`,
+    vision_title:"Jeva Energy and Solutions’ Vision Statement",
+    vision_content: `To revolutionize the oil and gas industry in Africa by setting new standards of excellence, 
+    innovation, and environmental responsibility. We aspire to be recognized as the epitome of reliability and sustainability in the sector,
+     delivering top-notch products and services that enhance the quality of life and contribute to the growth and prosperity of our communities
+      and the broader industry.`,
+    mission_title:"Jeva Energy and Solutions’ Mission Statement",
+    mission_content:`To be the leading provider of high-quality, specialized products and services in the oil and gas sector,
+     driven by exceptional business ethics and a deep understanding of market dynamics. We are committed to optimizing value for our clients
+      and stakeholders through innovative solutions, operational excellence, and a steadfast dedication to sustainability and community 
+      development.`,
 
 }
 
 export const core_values=[
     {
-        title:"INTERGRITY & ETHICS",
-        value:"Our dedication to ethical practices builds a solid base of trust and confidence with our clients, partners, and employees, ensuring that all interactions are rooted in reliability and fairness."
+        title:"Integrity & Ethics",
+        value:`Our dedication to ethical practices builds a solid base of trust and confidence with our clients, 
+        partners, and employees, ensuring that all interactions are rooted in reliability and fairness.`,
+        imageURL:"/assets/svg/integrity.svg"
     },
     {
-        title:"COMPETENCY, INNOVATION & EXCELLENCE",
-        value:"Our demonstrated expertise, innovative methods, and dedication to excellence enable us to display our skills across various industries."
+        title:"Competency, Innovation & Excellence",
+        value:"Our demonstrated expertise, innovative methods, and dedication to excellence enable us to display our skills across various industries.",
+        imageURL:"/assets/svg/innovation.svg"
     },
     {
-        title:"QUALITY, SAFETY & TRUST",
+        title:"Quality, Safety & Trust",
         value:"With a demonstrated history of success with our clients, we ensure that our processes and systems meet quality and safety standards. This dedication helps us build a reputation as a reliable and respected service provider"
+        ,imageURL:"/assets/svg/safety.svg"
     },
     {
-        title:"COST-EFFECTIVE",
+        title:"Cost-Effective",
         value:"By incorporating over 90% local content, we are able to provide competitive and cost-effective solutions."
+        ,imageURL:"/assets/svg/money.svg"
     },
     {
-        title:"GLOBAL COMPANY",
+        title:"Global Company",
         value:"We have broadened our operational sites and logistics network to guarantee prompt and efficient support for clients across different areas, delivering the appropriate solutions precisely when and where they are required."
+        ,imageURL:"/assets/svg/responsibility.svg"
     },
     {
-        title:"PROMPTNESS TO MARKET",
+        title:"Promptness To Market",
         value:"Utilizing our internal capabilities, resources, and experience, we are well-prepared to address and manage challenges while fulfilling our clients' expectations."
+        ,imageURL:"/assets/svg/focus.svg"
     },
 ]
 

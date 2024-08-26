@@ -1,8 +1,9 @@
 // import Swiper core and required modules
+
 "use client"
+import { hero } from '@/constants';
 
-
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y,Autoplay  } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -14,22 +15,39 @@ import 'swiper/css/scrollbar';
 
 const HeroSwipe = () => {
   return (
+    <div>
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
       spaceBetween={50}
-      slidesPerView={3}
-      navigation
+      slidesPerView={1}
+      autoplay={{
+        delay: 4500,
+        disableOnInteraction: false,
+      }}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+     
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+        { hero.map((item,index)=>(
+
+<SwiperSlide key={index}>
+<div>
+              <h1 className="text-[55px] font-medium text-white leading-10 sm:text-6xl lg:text-7xl pt-16" >
+                  {item.title}
+                  
+              </h1>
+
+              <p className="mt-8 text-base text-slate-100 leading-normal sm:text-xl">{item.text}</p>
+            </div>
+</SwiperSlide>
+        ))
+      
+}
     </Swiper>
+    
+    </div>
   );
 };
 
