@@ -1,7 +1,5 @@
 import Divider from '@/components/Divider'
 import React from 'react'
-import { MdEngineering } from "react-icons/md";
-import Link from 'next/link';
 import ServiceCard from '@/components/ServiceCard';
 import {ServicesHome} from '@/constants/index.js'
 
@@ -10,7 +8,7 @@ export const Services = () => {
     <section className='max-container py-12' id='#services'>
       <div>
         <h6 className='uppercase text-sky-500 text-center'>What we offer</h6>
-        <h1 className='text-center text-sky-800 text-4xl font-medium'>Over 20 years of combined expertise</h1>
+        <h1 className='text-center text-primary text-4xl font-medium'>Over 20 years of combined expertise</h1>
         <h6 className='text-center text-lg py-4 font-thin'>We pride ourselves on the wealth of experience in our chosen markets.</h6>
       </div>
       <div className="flex justify-center mt-5 mb-16">
@@ -22,9 +20,11 @@ export const Services = () => {
         { ServicesHome.map((service,index)=>(
         <div key={index}>
         <ServiceCard
+        bImage={service.bImage}
         label={service.label}
         link={service.link}
         icon={service.icon}
+       
         />
         </div>
         ))}

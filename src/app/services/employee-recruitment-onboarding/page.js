@@ -7,7 +7,7 @@ const EmployeeRecruitment = () => {
       <div>
         <Header
          pageTitle="Employee Recruitment & Onboarding"
-         imgURL="bg-aboutUs"
+         imgURL="bg-pg_onboarding"
          subText="Securing the Skilled Workforce, You Need"
          />
     </div>

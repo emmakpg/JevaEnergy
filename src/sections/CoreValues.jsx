@@ -4,7 +4,7 @@ import Button from "@/components/Button"
 export const CoreValues = () => {
   return (
     <section id="#core-values">
-      <div className="relative bg-hero w-full h-[500px] bg-cover bg-center">
+      <div className="relative bg-hs_corevalues w-full h-[500px] bg-cover bg-center">
       <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
       
 

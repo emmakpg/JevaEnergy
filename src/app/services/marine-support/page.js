@@ -9,7 +9,7 @@ const MarineServices = () => {
     <div>
     <Header
      pageTitle="Marine Support Services"
-     imgURL="bg-aboutUs"
+     imgURL="bg-pg_marine"
      subText="Provide essential logistical and operational support for offshore oil and gas activities"
      />
 

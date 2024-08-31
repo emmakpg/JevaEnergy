@@ -14,7 +14,7 @@ export const Header = ({pageTitle,subText,imgURL}) => {
                 <div >
                 
                   <div className="flex justify-start mb-10 mt-5">
-                  <Divider divideColor={"white"}/>
+                  <Divider divideColor={"bg-white"}/>
                   </div>
                             
                   <h1 className="relative text-4xl px-5 font-medium text-sky-200 sm:text-6xl lg:text-7xl">{pageTitle}</h1>

@@ -4,7 +4,7 @@ export const Clients = () => {
     <section id="#our-clients">
       <div>
         <h6 className='uppercase text-sky-500 text-center'>Our Clients</h6>
-        <h1 className='text-center text-sky-800 text-4xl font-medium'>Working with industry leaders</h1>
+        <h1 className='text-center text-primary text-4xl font-medium'>Working with industry leaders</h1>
        
       </div>
       <section class="w-full sm:py-16 lg:py-20">

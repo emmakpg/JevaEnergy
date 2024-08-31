@@ -15,20 +15,21 @@ export const Hero = () => {
   return (
     <section id="home">
       <div className="min-h-20 py-2 
-      sm:py-16 lg:py-40 bg-cover bg-center bg-sky-500 bg-blend-darken bg-hero2" >
+      sm:py-16 lg:py-40 bg-auto bg-left bg-blend-luminosity bg-hero">
   
 
     
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:ml-[10rem]">
             <div className="grid items-center grid-cols-1 gap-0 lg:grid-cols-2">
                 <div>
-                <div className="flex justify-start mt-5">
-                <Divider divideColor="white"/>
-                </div>
+                
                 
             
      
-                  <div>
+                  <div className="">
+                  <div className="flex justify-start mt-5">
+                <Divider divideColor="bg-white"/>
+                </div>
                   <HeroSwipe/>
                   </div>
               

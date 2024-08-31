@@ -10,7 +10,7 @@ const CoreValues = () => {
     <div>
     <Header
      pageTitle="Core Values"
-     imgURL="bg-aboutUs"
+     imgURL="bg-hs_corevalues"
      subText="Empowering Success through Shared Values."
      />
 
@@ -19,7 +19,7 @@ const CoreValues = () => {
       <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5">
         <div className="m-5">
         <div className="flex  mt-24">
-        <Divider divideColor="sky-800"/>
+        <Divider divideColor="bg-sky-800 "/>
         </div>
           <h2 className="text-sky-800 text-[35px] font-medium m-6 ml-4">Jeva Energy core values</h2>
 
@@ -32,7 +32,7 @@ const CoreValues = () => {
         </div>
         <div>
           <div>
-            <Image src="/assets/images/jeva_1.jpg"
+            <Image src="/assets/images/pg_corevalues.jpg"
             width={700}
             height={700}
             className="shadow-lg rounded-lg"
@@ -45,7 +45,7 @@ const CoreValues = () => {
       </div>
     
      </section>
-     <section className="sm:py-4 bg-gray-100">
+     <section className="sm:py-4 bg-[#f5f5f5] lg:py-24">
       <div className="max-container grid sm:grid-cols-1 md:grid-cols-2 gap-10">
         {
           core_values.map((item,index)=>(

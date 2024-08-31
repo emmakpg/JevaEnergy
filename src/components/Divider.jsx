@@ -6,8 +6,8 @@ const Divider = ({divideColor}) => {
 
     <>
      
-    <div className={`bg-${divideColor} w-4 h-0.5 ml-5 mr-3`}></div>
-    <div className={`bg-${divideColor} w-24 h-0.5`}></div>
+    <div className={`${divideColor} w-4 h-0.5 ml-5 mr-3`}></div>
+    <div className={`${divideColor} w-24 h-0.5`}></div>
     
     </>
   )

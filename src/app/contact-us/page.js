@@ -7,7 +7,7 @@ import { Header } from "@/components/Header"
     <div>
         <Header
          pageTitle="Contact Us"
-         imgURL="bg-contactHeaderImage"
+         imgURL="bg-pg_contactus"
          subText="Headquartered in Accra, Ghana. Jeva is committed to inter-regional expansion and is actively pursuing growth Ivory Coast and other prospective African nations."
          />
     </div>

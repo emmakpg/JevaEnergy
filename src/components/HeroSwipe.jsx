@@ -27,8 +27,7 @@ const HeroSwipe = () => {
       }}
       pagination={{ clickable: true }}
      
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+    
     >
         { hero.map((item,index)=>(
 

@@ -27,34 +27,39 @@ export const ServicesHome =[
     {
     label:"Marine Support Services",
     icon:<GiMiniSubmarine size={55} className="text-white"/>,
-    link:"/services/marine-support"
+    link:"/services/marine-support",
+    bImage:"bg-pg_marine"
 },
 {
     label:"Equipment/Material Supply Services",
     icon:<FaTools size={55} className="text-white"/>,
-    link:"/services/equipment-supply-services"
+    link:"/services/equipment-supply-services",
+    bImage:"bg-pg_equipment"
 },
 {
     label:"General Consultancy Services",
     icon:<MdCastForEducation size={55} className="text-white"/>,
-    link:"/services/consultancy-services"
+    link:"/services/consultancy-services",
+    bImage:"bg-pg_consultancy"
 },
 {
     label:"Employee recruitment & onboarding",
     icon:<MdEngineering size={55} className="text-white"/>,
-    link:"/services/employee-recruitment-onboarding"
+    link:"/services/employee-recruitment-onboarding",
+    bImage:"bg-pg_onboarding"
 },
 {
     label:"Protocol Services",
     icon:<FaHandsHelping size={55} className="text-white"/>,
-    link:"/services/protocol-services"
+    link:"/services/protocol-services",
+    bImage:"bg-pg_protocol"
 },
 ]
 
 
 export const miscLinks = [
-    { href: "/core-values", label: "Core Values"},
-    { href: "/management-team", label: "Our Team"}, 
+    { href: "/about/core-values", label: "Core Values"},
+    { href: "/about/management-team", label: "Our Team"}, 
         
     { href: "/", label: "Industries"}, 
       
