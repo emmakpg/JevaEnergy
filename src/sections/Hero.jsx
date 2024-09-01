@@ -15,7 +15,7 @@ export const Hero = () => {
   return (
     <section id="home">
       <div className="min-h-20 py-2 
-      sm:py-16 lg:py-40 bg-auto bg-left bg-blend-luminosity bg-hero">
+      sm:py-16 lg:py-40 bg-cover bg-left bg-blend-luminosity bg-hero3">
   
 
     

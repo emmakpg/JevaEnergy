@@ -8,7 +8,7 @@ export const DropDown = ({dropMenu}) => {
         <div>
             {dropMenu.map((item)=>
             (
-                <div key={item.label} className='leading-normal text-sky-700 hover:text-sky-500 py-2'>
+                <div key={item.label} className='leading-normal text-primary hover:text-gray-500 py-2'>
                     <Link href={item.href}>
                     {item.label}
                     </Link>

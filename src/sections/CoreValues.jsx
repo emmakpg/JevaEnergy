@@ -11,7 +11,7 @@ export const CoreValues = () => {
       <div className="relative z-30">
         <h6 className='uppercase text-sky-300 text-lg text-center pt-8'>Core Values</h6>
         <div className="flex justify-center mt-5 mb-10">
-        <Divider divideColor="white"/>
+        <Divider divideColor="bg-white"/>
       </div>
       
         <h1 className='text-center text-white text-[30px] font-normal'>Our core values define us as a company </h1>

@@ -6,6 +6,18 @@ import Image from "next/image"
 import { FaAngleDown } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { DropDown } from "./DropDown";
+import {
+  Menubar,
+  MenubarContent,
+  MenubarItem,
+  MenubarMenu,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarTrigger,
+} from "@/components/ui/menubar"
+
+
+
 
 export const Navbar = () => {
 
@@ -64,7 +76,7 @@ export const Navbar = () => {
             </Link>
             </div>
            
-<div onMouseLeave={()=>setmenuItem(null)}>
+<div onClick={()=>setmenuItem(null)}>
             <ul className='flex-1 flex justify-end items-center gap-16 max-lg:hidden lg:mr-40'>
                 {navLinks.map((item)=>(
                     <li key={item.label}>
@@ -90,9 +102,10 @@ export const Navbar = () => {
                           }
 
               { menuItem === "Services" &&
-                            (<div className="absolute top-16 ml-[17rem] bg-slate-100/90 rounded-lg ">
-                              <DropDown dropMenu={navLinks.find(link => link.label === "Services").submenuServices}/>
-                            </div>)
+                   (<div className="absolute top-16 ml-[17rem] bg-slate-100/90 rounded-lg ">
+                      <DropDown dropMenu={navLinks.find(link => link.label === "Services").submenuServices}/>
+                    </div>)
+            
                           }
             </div>
             

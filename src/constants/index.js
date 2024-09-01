@@ -12,7 +12,7 @@ export const navLinks = [
     { href: "#about", label: "About Us", submenuAbout:[{ href: "/about/vision-&-mission", label: "Vision & Mission" },
         { href: "/about/core-values", label: "Core Values" },
         { href: "/", label: "Our Journey" },
-        { href: "/management-team", label: "Our Management Team" },
+        { href: "/about/management-team", label: "Our Management Team" },
         { href: "/", label: "Corporate Social Responsibilities" }] },
     { href: "#services", label: "Services", submenuServices:[{ href: "/services/marine-support", label: "Marine Support Services" },
         { href: "/services/consultancy-services/", label: "General Consultancy Services" },
@@ -25,7 +25,7 @@ export const navLinks = [
 
 export const ServicesHome =[
     {
-    label:"Marine Support Services",
+    label:"Petroleum Products Supply Services",
     icon:<GiMiniSubmarine size={55} className="text-white"/>,
     link:"/services/marine-support",
     bImage:"bg-pg_marine"
@@ -49,7 +49,7 @@ export const ServicesHome =[
     bImage:"bg-pg_onboarding"
 },
 {
-    label:"Protocol Services",
+    label:"Protocol & Logistic Services",
     icon:<FaHandsHelping size={55} className="text-white"/>,
     link:"/services/protocol-services",
     bImage:"bg-pg_protocol"
@@ -63,7 +63,7 @@ export const miscLinks = [
         
     { href: "/", label: "Industries"}, 
       
-    { href: "/", label: "Logistics Services" },
+    { href: "/services/protocol-services", label: "Protocol & Logistics" },
 ];
 
 
@@ -151,42 +151,52 @@ export const team = [
         name: "Emily Attito-Sam ",
         position:"Managing Director",
         about: `Emily Attito-Sam is the dynamic Managing Director of Jeva Energy and Solutions, driving the company's success with her exceptional leadership and strategic vision. With a distinguished career in the fuel and bulk distribution industry, Emily brings a wealth of experience to her role.
+
 Her professional journey spans six years in international business banking and finance, where she honed her expertise in managing financial operations and investment strategies on a global scale. This foundation in finance has provided her with a solid understanding of the economic drivers affecting the oil and gas industry.
+
 Emily has also accumulated eight years of experience as a marketing and trade/business consultant. During this time, she developed and implemented successful strategies for business growth and market expansion, working with diverse clients to enhance their competitive edge. Her consultancy experience has been instrumental in shaping Jeva Oil’s market positioning and strategic direction.
+
 In addition to her extensive background in finance and consultancy, Emily has spent the past year focusing on strategic management. This role has further refined her skills in organizational leadership, planning, and execution, contributing to the company's continued growth and operational excellence.
 Her comprehensive expertise, combined with her forward-thinking approach, has been pivotal in positioning Jeva Energy and Solutions as a leader in the industry, committed to innovation, quality, and community impact.
 `,
-        image:"Emily",
+        image:"/assets/images/Francis.jpg",
     },
     {
         name: "Alex Menage",
         position:"Non-Executive Director",
         about: `Alex Menage is a distinguished Non-Executive Director at Jeva Energy and Solutions, renowned for his expertise in entrepreneurial deal-making and relationship-building. With a strategic focus on Emerging Markets, Alex excels in developing and nurturing businesses, leveraging his extensive experience to drive growth and expand business horizons.
+
 Alex’s career is marked by his adeptness at building and managing high-performing teams, crafting effective go-to-market strategies, and spearheading business development initiatives. His proficiency in sales and relationship management has been instrumental in fostering valuable connections and securing strategic opportunities.
+
 As an accomplished corporate professional, Alex Menage brings a wealth of knowledge and a proven track record of success to Jeva Energy and Solutions. His innovative approach and strategic vision contribute significantly to the company's growth and success in diverse and dynamic markets.
 `,
-        image:"Alex",
+        image:"/assets/images/Alex.jpg",
     },
     {
         name: "Francis Amediku",
         position:"Project Director",
         about: `Francis Amediku is a seasoned Business and Technology Executive with over 26 years of diverse experience in IT, Project Management, Business Transformation, Strategy and Execution, Sales, and Marketing. He has consistently delivered exceptional results across industries such as Consulting, Mining, and Telecommunications.
+
 Francis excels in leading large-scale projects and driving business transformation with strategic vision and innovative solutions. His IT expertise has optimized processes and enhanced operational efficiency, while his project management skills ensure timely and budget-conscious project delivery.
 In Sales and Marketing, Francis's strategies have significantly boosted revenue and market presence. Known for his collaborative leadership, he inspires and mentor teams, fostering a culture of innovation and continuous improvement.
+
 As Project Director, Francis leverages his extensive background to deliver transformative solutions and drive the organization's strategic vision, solidifying his reputation as a forward-thinking leader dedicated to achieving sustainable growth and success.
 `,
-        image:"Francis",
+        image:"/assets/images/Francis.jpg",
     },
     {
         name: "John Amaning",
         position:"Account Director",
         about: `John Amaning, Account Director at Jeva Energy and Solutions, is a distinguished finance professional with extensive experience in the oil and gas industry. With a robust background in accounting and financial management, John brings a wealth of expertise to his role, underscoring his commitment to excellence and precision in financial operations.
+
 Over his career, John has cultivated a deep understanding of the financial intricacies within the oil and gas sector. His proficiency extends across various key areas, including financial planning and analysis, regulatory compliance, and operational optimization. He has consistently demonstrated his ability to navigate complex financial landscapes, ensuring that businesses adhere to industry regulations and standards while optimizing their financial performance.
+
 John's career highlights include spearheading financial strategies that have led to significant cost reductions and efficiency improvements for multiple organizations. His strategic insights and meticulous approach to financial management have been instrumental in enhancing profitability and sustaining growth in the competitive oil and gas market.
+
 In his role at Jeva Energy and Solutions, John is responsible for overseeing the financial health of the company, ensuring accurate financial reporting, and implementing robust internal controls. His leadership in financial operations has contributed to the company’s stability and success, reinforcing Jeva Energy and Solutions' reputation for reliability and fiscal discipline.
 John’s dedication to his profession is matched by his commitment to the broader industry, where he actively engages in best practices and continuous professional development. His expertise not only drives the financial success of Jeva Energy and Solutions but also supports the company's strategic objectives and long-term growth.
 `,
-        image:"John"
+        image:"/assets/images/Alex.jpg"
     },
 ];
 

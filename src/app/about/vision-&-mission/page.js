@@ -15,17 +15,17 @@ const VisionMission = () => {
 
   <div className="max-container py-4">
   <div className="flex  mt-24">
-        <Divider divideColor="black"/>
+        <Divider divideColor="bg-primary"/>
         </div>
-          <h2 className="text-sky-800 text-[30px] font-medium m-6 ml-4">{AboutContent.vision_title}</h2>
+          <h2 className="text-primary text-[30px] font-medium m-6 ml-4">{AboutContent.vision_title}</h2>
 
           <p className="text-lg font-thin leading-normal ml-4 lg:mr-52">{AboutContent.vision_content}</p>
   </div>
   <div className="max-container lg:pb-20">
   <div className="flex  mt-24">
-        <Divider divideColor="black"/>
+        <Divider divideColor="bg-primary"/>
         </div>
-          <h2 className="text-sky-800 text-[30px] font-medium m-6 ml-4">{AboutContent.mission_title}</h2>
+          <h2 className="text-primary text-[30px] font-medium m-6 ml-4">{AboutContent.mission_title}</h2>
 
           <p className="text-lg font-thin leading-normal ml-4 lg:mr-52">{AboutContent.mission_content}</p>
   </div>
