@@ -34,6 +34,7 @@ const ManagementTeam = () => {
   <div>
     <div>
       <Image src="/assets/images/pg_corevalues.jpg"
+      alt="management"
       width={700}
       height={700}
       className="shadow-lg rounded-lg"

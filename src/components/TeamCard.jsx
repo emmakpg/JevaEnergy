@@ -5,6 +5,7 @@ const TeamCard = ({imageUrl,name,role,about}) => {
     <div className="bg-white shadow-lg rounded-md grid grid-cols-[2fr,3fr] p-10 m-8">
          <div className="p-3 text-primary mt-8 items-center"> <Image
           src={imageUrl}
+          alt="jeva_management"
           width={500}
           height={170}
           />

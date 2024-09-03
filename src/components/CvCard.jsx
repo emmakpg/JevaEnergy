@@ -5,6 +5,7 @@ const CvCard = ({imageUrl,label,value}) => {
     <div className="bg-white shadow-lg rounded-md grid grid-cols-[1fr,5fr] p-10">
          <div className="p-3 text-primary"> <Image
           src={imageUrl}
+          alt="jeva_core_values"
           width={70}
           height={70}
           />

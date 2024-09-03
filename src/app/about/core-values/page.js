@@ -33,6 +33,7 @@ const CoreValues = () => {
         <div>
           <div>
             <Image src="/assets/images/pg_corevalues.jpg"
+            alt="core_values"
             width={700}
             height={700}
             className="shadow-lg rounded-lg"

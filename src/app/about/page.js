@@ -21,7 +21,7 @@ import CountUp from 'react-countup';
   <div className="flex  mt-24">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary text-[35px] font-medium m-6 ml-4">We're proud of our journey</h2>
+    <h2 className="text-primary text-[35px] font-medium m-6 ml-4">We&apos;re proud of our journey</h2>
 
     <p className="text-lg font-thin leading-normal ml-4">Founded in 2023, Jeva Energies & Solutions is a key provider of upstream and downstream oil and gas services in Ghana and West Africa. Committed to industry growth, we deliver diverse services
        and focus on enhancing value and advancing the sector locally and regionally.</p>
@@ -32,6 +32,7 @@ import CountUp from 'react-countup';
   <div>
     <div>
       <Image src="/assets/images/pg_corevalues.jpg"
+      alt="about_jeva"
       width={700}
       height={700}
       className="shadow-lg rounded-lg"
@@ -47,12 +48,12 @@ import CountUp from 'react-countup';
 
 <section className="lg:py-24  sm:py-4 bg-gray-100">
 <div>
-        <h6 className='uppercase text-sky-500 text-center'> How it all started</h6>
-        <h1 className='text-center text-primary text-4xl font-medium'>The beginning of our story </h1>
+        <h6 className="uppercase text-sky-500 text-center"> How it all started</h6>
+        <h1 className="text-center text-primary text-4xl font-medium">The beginning of our story </h1>
         <div className="flex justify-center my-8">
         <Divider divideColor="bg-primary"/>
         </div>
-        <h6 className='text-center text-primary text-xl font-semibold'>2023 – Establishing Jeva Energies & Solutions</h6>
+        <h6 className="text-center text-primary text-xl font-semibold">2023 – Establishing Jeva Energies & Solutions</h6>
 
         <p className="text-center py-4 text-lg font-thin">	Incorporated Jeva Oil, Jeva Energies, and Jeva Energies & Solutions in Ghana</p>
         <p className="text-center py-4 text-lg font-thin">	Secured first-year projects</p>
@@ -62,9 +63,9 @@ import CountUp from 'react-countup';
         <p className="text-center py-4 text-lg font-thin">Built a solid operational foundation with a focus on expanding service 
           offerings and meeting client needs</p>
 
-          <h6 className='text-center text-primary text-xl font-semibold pt-4'>2024 – Strategic Expansion and Growth</h6>
+          <h6 className="text-center text-primary text-xl font-semibold pt-4">2024 – Strategic Expansion and Growth</h6>
 
-<p className="text-center py-4 text-lg font-thin">Expanded operations into Côte d'Ivoire and other key African markets</p>
+<p className="text-center py-4 text-lg font-thin">Expanded operations into Côte d&apos;Ivoire and other key African markets</p>
 <p className="text-center py-4 text-lg font-thin">	Secured first-year projects</p>
 <p className="text-center py-4 text-lg font-thin">Continued evolution and enhancement of service offerings to align with client requirements and industry demands</p>
 
