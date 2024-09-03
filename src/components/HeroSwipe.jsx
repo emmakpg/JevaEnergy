@@ -21,6 +21,7 @@ const HeroSwipe = () => {
       modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
       spaceBetween={50}
       slidesPerView={1}
+      loop={true}
       autoplay={{
         delay: 4500,
         disableOnInteraction: false,

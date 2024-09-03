@@ -8,7 +8,7 @@ import { Header } from "@/components/Header"
         <Header
          pageTitle="Contact Us"
          imgURL="bg-pg_contactus"
-         subText="Headquartered in Accra, Ghana. Jeva is committed to inter-regional expansion and is actively pursuing growth Ivory Coast and other prospective African nations."
+         subText="Headquarters in Accra, Ghana. Jeva is committed to inter-regional expansion and is actively pursuing growth in Ivory Coast and other prospective African nations."
          />
     </div>
 
@@ -29,8 +29,8 @@ import { Header } from "@/components/Header"
                                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                             />
                         </svg>
-                        <p className="mt-6 text-lg font-medium text-gray-900">+1-316-555-0116</p>
-                        <p className="mt-1 text-lg font-medium text-gray-900">+1-446-526-0117</p>
+                        <p className="mt-6 text-lg font-medium text-gray-900">+233 50 006 4104</p>
+                        <p className="mt-1 text-lg font-medium text-gray-900">--- -- --- --</p>
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ import { Header } from "@/components/Header"
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
-                        <p className="mt-6 text-lg font-medium leading-relaxed text-gray-900">8502 Preston Rd. Ingle, Maine 98380, USA</p>
+                        <p className="mt-6 text-lg font-medium leading-relaxed text-gray-900">3rd Floor, One Airport Square <br/> Accra, Ghana</p>
                     </div>
                 </div>
             </div>
@@ -110,6 +110,9 @@ import { Header } from "@/components/Header"
     </div>
 </section>
 
+    </div>
+    <div className="text-center py-12 text-4xl text-primary">
+        GOOGLE MAP
     </div>
     </section>
   )

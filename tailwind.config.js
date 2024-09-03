@@ -45,6 +45,7 @@ module.exports = {
         'hero2': "url('/assets/images/hero2.jpg')",
         'hero3': "url('/assets/images/her.jpg')",
         'aboutUs': "url('/assets/images/aboutUs.jpg')",
+        'about_us': "url('/assets/images/about_us.jpg')",
         'coreValues': "url('/assets/images/jeva_1.jpg')",
       },
       colors: {

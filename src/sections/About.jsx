@@ -10,7 +10,7 @@ import CountUp from 'react-countup';
 
 export const About = () => {
   return (
-    <section id='#about' className='max-container' >
+    <section className='max-container' >
       <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-1'>
        <div> 
       <div className="flex justify-start mt-5 mb-7">
@@ -34,7 +34,7 @@ export const About = () => {
               <CountUp
               start={0}
               end={200}
-              duration={4}
+              duration={3}
               />
               </h1>
             <p className='font-thin text-lg'>Personnels</p>
@@ -48,7 +48,7 @@ export const About = () => {
             <CountUp
               start={0}
               end={2}
-              duration={5}
+              duration={3}
               />
               </h1>
             <p className='font-thin pr-10 text-lg'>Countries</p>
@@ -61,8 +61,8 @@ export const About = () => {
             <h1 className='text-[60px] text-center font-medium tracking-widest text-primary'>
             <CountUp
               start={0}
-              end={40}
-              duration={5}
+              end={30}
+              duration={4}
               />k
               </h1>
             <p className='font-thin text-lg text-center'>cubic square meter Operating Capacity</p>

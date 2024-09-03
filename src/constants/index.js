@@ -83,9 +83,10 @@ export const hero = [
         text: "Empowering clients in various industries with a full range of services offered by our subsidiary companies, we provide the solutions to create value and achieve success. ",
         image: "smiling_consultant",
     },
+
     {
-        title: "Geographic Footprint",
-        text: "Based in Accra, Ghana, Jeva is dedicated to expanding across regions and is actively seeking growth opportunities in Ivory Coast and other potential African countries. ",
+        title: "Global Reach",
+        text: "Based in Accra, Ghana, Jeva is dedicated to expanding across regions and actively seeking growth opportunities in Ivory Coast, other potential African countries, and the world through sustainable partnerships and joint ventures.",
         image: "global_locations",
     },
 ];
