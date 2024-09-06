@@ -64,7 +64,7 @@ export const Navbar = () => {
 
   return (
     <header onScroll={handleScroll} className={`w-full lg:sticky  ${isScrolled?'bg-[#202020]/40':'bg-[#202020]'} top-0 z-10 shadow-lg transition-colors`}>
-         <nav className='flex justify-between items-center  p-4'>
+         <nav className='flex justify-between items-center  p-4 z-50'>
            <div className="lg:mx-40">
            <Link href="/">
            <Image

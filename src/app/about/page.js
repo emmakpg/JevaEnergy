@@ -31,7 +31,7 @@ import CountUp from 'react-countup';
   </div>
   <div>
     <div>
-      <Image src="/assets/images/pg_corevalues.jpg"
+      <Image src="/assets/images/pg_corevalues.webp"
       alt="about_jeva"
       width={700}
       height={700}
@@ -75,7 +75,7 @@ import CountUp from 'react-countup';
 </section>
 
 <section id="#core-values">
-      <div className="relative bg-hero w-full h-[500px] bg-cover bg-center">
+      <div className="relative bg-hero_core w-full h-[500px] bg-cover bg-center">
       <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
       
 

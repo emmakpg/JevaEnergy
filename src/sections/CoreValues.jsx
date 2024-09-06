@@ -8,7 +8,7 @@ export const CoreValues = () => {
       <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
       
 
-      <div className="relative z-30">
+      <div className="relative">
         <h6 className='uppercase text-sky-300 text-lg text-center pt-8'>Core Values</h6>
         <div className="flex justify-center mt-5 mb-10">
         <Divider divideColor="bg-white"/>
