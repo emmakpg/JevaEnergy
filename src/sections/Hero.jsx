@@ -26,15 +26,15 @@ export const Hero = () => {
                 
             
      
-                  <div className="">
-                  <div className="flex justify-start mt-5">
+                  <div className="sm:hidden">
+                  <div className="flex justify-start mt-5 sm:hidden">
                 <Divider divideColor="bg-white"/>
                 </div>
                   <HeroSwipe/>
                   </div>
               
 
-                    <div className="mt-10 sm:flex sm:items-center sm:space-x-8 transition duration-100 ease-out">
+                    <div className="mt-10 sm:mb-2 sm:py-4 sm:flex sm:items-center sm:space-x-8 transition duration-100 ease-out">
                     <Button label="Find out more" link="/about"/>
                    
 

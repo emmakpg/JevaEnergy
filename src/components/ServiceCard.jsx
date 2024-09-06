@@ -9,7 +9,7 @@ const ServiceCard = ({bImage,label,icon,link}) => {
     <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       <Link href={link} className='z-10'>
     <div className='px-4 pt-4'>{icon}</div>
-    <p className='px-4 text-xl mb-10 mt-2 text-white font-thin'>{label}</p>
+    <p className='px-4 lg:text-xl mb-10 mt-2 text-white font-thin'>{label}</p>
     </Link>
     </div>
     </div>

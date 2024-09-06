@@ -34,7 +34,7 @@ const HeroSwipe = () => {
 
 <SwiperSlide key={index}>
 <div>
-              <h1 className="text-[55px] font-medium text-white leading-10 sm:text-6xl lg:text-7xl pt-16" >
+              <h1 className="lg:text-[55px] text-4xl font-medium text-white leading-10 sm:text-6xl lg:text-7xl pt-16" >
                   {item.title}
                   
               </h1>

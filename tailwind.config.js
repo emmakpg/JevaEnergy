@@ -25,25 +25,24 @@ module.exports = {
        
       },
       backgroundImage: {
-        'contactHeaderImage': "url('/assets/images/hero1.jpg')",
-        'hs_marine': "url('/assets/images/marine.jpg')",
-        'hs_equipment': "url('/assets/images/equipment.jpg')",
-        'hs_consultancy': "url('/assets/images/consultancy.jpg')",
-        'hs_onboarding': "url('/assets/images/onboarding.jpg')",
-        'hs_protocol': "url('/assets/images/protocol.jpg')",
-        'pg_marine': "url('/assets/images/pg_marine.jpg')",
-        'pg_equipment': "url('/assets/images/pg_equipment.jpg')",
-        'pg_consultancy': "url('/assets/images/pg_consultancy.jpg')",
-        'pg_onboarding': "url('/assets/images/pg_onboarding.jpg')",
-        'pg_protocol': "url('/assets/images/pg_protocol.jpg')",
-        'pg_corevalues': "url('/assets/images/pg_corevalues.jpg')",
-        'pg_contactus': "url('/assets/images/pg_contactus.jpg')",
-        'pg_structure': "url('/assets/images/pg_structure.jpg')",
-        'hs_corevalues': "url('/assets/images/hs_corevalues.jpg')",
+        'hs_marine': "url('/assets/images/marine.')",
+        'hs_equipment': "url('/assets/images/equipment')",
+        'hs_consultancy': "url('/assets/images/consultancy')",
+        'hs_onboarding': "url('/assets/images/onboarding')",
+        'hs_protocol': "url('/assets/images/protocol')",
+        'pg_marine': "url('/assets/images/pg_marine.webp')",
+        'pg_equipment': "url('/assets/images/pg_equipment.webp')",
+        'pg_consultancy': "url('/assets/images/pg_consultancy.webp')",
+        'pg_onboarding': "url('/assets/images/pg_onboarding.webp')",
+        'pg_protocol': "url('/assets/images/pg_protocol.webp')",
+        'pg_corevalues': "url('/assets/images/pg_corevalues.webp')",
+        'pg_contactus': "url('/assets/images/pg_contactus.webp')",
+        'pg_structure': "url('/assets/images/pg_structure.webp')",
+        'hs_corevalues': "url('/assets/images/hs_corevalues.webp')",
         'hero': "url('/assets/images/hero.jpg')",
         'hero1': "url('/assets/images/hero1.jpg')",
         'hero2': "url('/assets/images/hero2.jpg')",
-        'hero3': "url('/assets/images/her.jpg')",
+        'hero3': "url('/assets/images/hero.webp')",
         'aboutUs': "url('/assets/images/aboutUs.jpg')",
         'about_us': "url('/assets/images/about_us.jpg')",
         'coreValues': "url('/assets/images/jeva_1.jpg')",
@@ -59,7 +58,10 @@ module.exports = {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       screens: {
-        "wide": "1440px"
+        "wide": "1440px",
+        'sm': '600px',  // Change small breakpoint to 600px
+        'md': '900px',  // Change medium breakpoint to 900px
+        'lg': '1200px', // Change large breakpoint to 1200px
       }
     },
   },

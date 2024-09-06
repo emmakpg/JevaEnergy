@@ -14,12 +14,12 @@ export const CoreValues = () => {
         <Divider divideColor="bg-white"/>
       </div>
       
-        <h1 className='text-center text-white text-[30px] font-normal'>Our core values define us as a company </h1>
-           <h1 className='text-center text-white text-[30px] font-normal mt-[-10px]'>and express who we are,
+        <h1 className='text-center text-white lg:text-[30px] text-xl font-normal pb-2 lg:pb-4 '>Our core values define us as a company </h1>
+           <h1 className='text-center text-white lg:text-[30px] text-xl font-normal mt-[-10px]'>and express who we are,
            how we think and act</h1>
            
-        <h6 className='text-center text-lg pt-4 font-thin text-white'>These core values guide us and motivate us to perform better, and they represent a critical success </h6>
-           <h6 className='text-center text-lg font-thin text-white'> factor in our efforts to achieve our common goals and create an attractive work place.</h6>
+        <h6 className='text-center lg:text-lg pt-4 font-thin text-white'>These core values guide us and motivate us to perform better, and they represent a critical success </h6>
+           <h6 className='text-center lg:text-lg font-thin text-white'> factor in our efforts to achieve our common goals and create an attractive work place.</h6>
       
           <div className='flex justify-center py-8 mt-10'>
         <Button label="See our core values" link="/about/core-values"/>

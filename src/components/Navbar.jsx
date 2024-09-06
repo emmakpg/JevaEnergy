@@ -63,15 +63,16 @@ export const Navbar = () => {
 
 
   return (
-    <header onScroll={handleScroll} className={`w-full sticky  ${isScrolled?'bg-[#202020]/40':'bg-[#202020]'} top-0 z-10 shadow-lg transition-colors`}>
+    <header onScroll={handleScroll} className={`w-full lg:sticky  ${isScrolled?'bg-[#202020]/40':'bg-[#202020]'} top-0 z-10 shadow-lg transition-colors`}>
          <nav className='flex justify-between items-center  p-4'>
            <div className="lg:mx-40">
            <Link href="/">
            <Image
            src="/assets/images/jeva_logo.png"
            alt="jeva_logo"
-           width={300}
-           height={150}
+           width={220}
+           height={30}
+           className="sm:w-0.5 lg:w-72"
            />
             </Link>
             </div>
@@ -109,11 +110,19 @@ export const Navbar = () => {
                           }
             </div>
             
-            <div className="hidden max-lg:block">
-           <FaBars className="text-white-400" size={40}/>
+         
 
-      
-        </div>
+        <button type="button" class="inline-flex p-2 ml-1 text-white  transition-all duration-200 rounded-md sm:ml-4 lg:hidden
+       focus:bg-gray-800 hover:bg-sky-900 hover:text-white">
+        
+         <svg className="block w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+
+         <svg className="hidden w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
         
          </nav>
        
