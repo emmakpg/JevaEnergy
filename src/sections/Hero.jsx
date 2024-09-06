@@ -26,8 +26,8 @@ export const Hero = () => {
                 
             
      
-                  <div className="sm:hidden">
-                  <div className="flex justify-start mt-5 sm:hidden">
+                  <div>
+                  <div className="flex justify-start mt-5">
                 <Divider divideColor="bg-white"/>
                 </div>
                   <HeroSwipe/>
