@@ -3,15 +3,17 @@
 import { Header } from "@/components/Header"
 import Divider from "@/components/Divider"
 import Image from "next/image"
+import Button from "@/components/Button"
 
 
 
 const MarineServices = () => {
   return (
-    <div>
+  
+  <div>
     <Header
      pageTitle="Petroleum Supply Services"
-     imgURL="bg-pg_marine"
+     imgURL="bg-petrolhead"
      subText="Provide essential logistical and operational support for offshore oil and gas activities"
      />
 
@@ -37,8 +39,8 @@ const MarineServices = () => {
 
   </div>
   <div>
-    <div className="lg:mt-20">
-      <Image src="/assets/images/psupply.webp"
+    <div className="lg:mt-32">
+      <Image src="/assets/images/petroleum.webp"
       alt="core_values"
       width={700}
       height={700}
@@ -97,13 +99,40 @@ If you're interested in partnering with us or learning more about how we can con
 
 </div>
 
-
 </section>
-   
 
-     <div>
+<section>
+      <div className="relative bg-petroltruck w-full h-[500px] bg-cover bg-center">
+      <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
       
-     </div>
+
+      <div className="relative z-30">
+        <h6 className='uppercase text-sky-300 text-lg text-center pt-8'></h6>
+        <div className="flex justify-center mt-5 mb-10">
+        <Divider divideColor="bg-white"/>
+      </div>  
+           
+        <p className='max-container text-center text-lg leading-normal lg:pt-4 font-thin text-white'>
+        At Jeva Energies & Solutions, we are dedicated to raising industry standards by combining local knowledge with global expertise. Our mission is to foster sustainable growth and operational excellence across Africa,
+         setting new standards for innovation and reliability in the energy sector. 
+        If you're interested in partnering with us or learning more about how we can contribute to your success, please don't hesitate to reach out. </p>
+          
+
+        
+        <div className='flex justify-center py-8 mt-8'>
+        <Button label="Reach Out To Us" link="/contact-us"/>
+        </div>
+      </div>
+
+    
+     
+
+     
+      
+    </div>
+      
+    </section>
+     
 </div>
   )
 }

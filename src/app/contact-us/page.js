@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header"
+import Maps from "@/components/Maps";
 
 
  const ContactUsPage = () => {
@@ -113,6 +114,9 @@ import { Header } from "@/components/Header"
     </div>
     <div className="text-center py-12 text-4xl text-primary">
         GOOGLE MAP
+    </div>
+    <div>
+        <Maps/>
     </div>
     </section>
   )
