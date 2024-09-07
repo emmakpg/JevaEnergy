@@ -9,12 +9,12 @@ import { MdEngineering } from "react-icons/md";
 
 export const navLinks = [
     { href: "/", label: "Home"},
-    { href: "#about", label: "About Us", submenuAbout:[{ href: "/about/vision-&-mission", label: "Vision & Mission" },
+    { href: "/about", label: "About Us", submenuAbout:[{ href: "/about/vision-&-mission", label: "Vision & Mission" },
         { href: "/about/core-values", label: "Core Values" },
-        { href: "/", label: "Our Journey" },
+        { href: "/about", label: "Our Journey" },
         { href: "/about/management-team", label: "Our Management Team" },
         { href: "/", label: "Corporate Social Responsibilities" }] },
-    { href: "#services", label: "Services", submenuServices:[{ href: "/services/marine-support", label: "Marine Support Services" },
+    { href: "#services", label: "Services", submenuServices:[{ href: "/services//petroleum-supply-services", label: "Petroleum Supply Services" },
         { href: "/services/consultancy-services/", label: "General Consultancy Services" },
         { href: "/services/equipment-supply-services", label: "Equipment/Material Supply Services" },
         { href: "/services/employee-recruitment-onboarding/", label: "Employee recruitment & onboarding" },
@@ -27,8 +27,8 @@ export const ServicesHome =[
     {
     label:"Petroleum Products Supply Services",
     icon:<GiMiniSubmarine size={55} className="text-white"/>,
-    link:"/services/marine-support",
-    bImage:"bg-pg_marine"
+    link:"/services/petroleum-supply-services",
+    bImage:"bg-petrolhead"
 },
 {
     label:"Equipment/Material Supply Services",
