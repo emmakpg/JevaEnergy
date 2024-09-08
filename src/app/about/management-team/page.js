@@ -16,11 +16,11 @@ const ManagementTeam = () => {
 <section className="max-container  lg:py-32  sm:py-4">
 
 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5">
-  <div className="m-5">
-  <div className="flex  mt-24">
+  <div className="m-5 xs:m-0">
+  <div className="flex  mt-24 xs:8">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary text-[35px] font-medium m-6 ml-4">Our Team & Expertise</h2>
+    <h2 className="text-primary lg:text-[35px] text-[30px] xs:leading-8 font-medium m-6 ml-4">Our Team & Expertise</h2>
 
     <p className="text-lg font-thin leading-normal ml-4">
     Jeva Energy and Solutions is propelled by a remarkable team of industry specialists whose deep experience and 

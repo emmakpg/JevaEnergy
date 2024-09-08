@@ -72,7 +72,7 @@ export const Navbar = () => {
            alt="jeva_logo"
            width={220}
            height={30}
-           className="sm:w-0.5 lg:w-72"
+           className="lg:w-72"
            />
             </Link>
             </div>

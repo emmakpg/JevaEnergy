@@ -21,7 +21,7 @@ export const CoreValues = () => {
         <h6 className='text-center lg:text-lg pt-4 font-thin text-white'>These core values guide us and motivate us to perform better, and they represent a critical success </h6>
            <h6 className='text-center lg:text-lg font-thin text-white'> factor in our efforts to achieve our common goals and create an attractive work place.</h6>
       
-          <div className='flex justify-center py-8 mt-10'>
+          <div className='flex justify-center py-8 xs:pt-4 mt-10'>
         <Button label="See our core values" link="/about/core-values"/>
         </div>
       </div>

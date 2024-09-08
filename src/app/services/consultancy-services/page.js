@@ -22,7 +22,7 @@ const ConsultancyServices = () => {
   <div className="flex  mt-10">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary text-[35px] font-medium m-6 ml-4 leading-10">Empowering Your Workforce for Industry Excellence</h2>
+    <h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4 leading-10">Empowering Your Workforce for Industry Excellence</h2>
 
     <p className="text-lg font-thin leading-normal ml-4">At Jeva Energies & Solutions, we are committed to empowering your workforce with the 
       specialized skills and knowledge crucial for excelling in the demanding oil and gas industry. Our consultancy services deliver targeted
@@ -33,7 +33,7 @@ const ConsultancyServices = () => {
   <div className="flex  mt-10">
   <Divider divideColor="bg-primary"/>
   </div>
-<h2 className="text-primary text-[35px] font-medium m-6 ml-4 leading-10">Comprehensive Training Programs Tailored for Industry Needs</h2>
+<h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4 leading-10">Comprehensive Training Programs Tailored for Industry Needs</h2>
 
 <p className="text-lg font-thin leading-normal ml-4">We offer a diverse portfolio of safety and survival training courses, 
   meticulously designed to meet the unique demands of the oil and gas sector. Our programs focus on enhancing your workforce’s competency,
@@ -42,7 +42,7 @@ const ConsultancyServices = () => {
   </div>
   <div>
     <div className="lg:mt-32">
-      <Image src="/assets/images/petroleum.webp"
+      <Image src="/assets/images/consult.webp"
       alt="core_values"
       width={700}
       height={700}
@@ -96,7 +96,7 @@ Jeva Energies & Solutions is dedicated to enhancing your operational efficiency.
 focusing on risk mitigation to prevent disruptions and ensure smooth, uninterrupted operations.
 </p>
 
-<h2 className="text-primary text-[40px] font-medium m-6 ml-4">Why Partner with Jeva Energies & Solutions?</h2>
+<h2 className="text-primary lg:text-[40px] text-[25px] xs:leading-8 font-medium m-6 ml-4">Why Partner with Jeva Energies & Solutions?</h2>
 <h2 className="text-primary text-2xl font-medium m-6 ml-4">Access to Industry Expertise</h2>
 <p className="text-lg font-thin leading-normal ml-4">
 When you partner with Jeva Energies & Solutions, you gain access to a team of seasoned professionals with deep industry expertise. Our commitment to excellence and client success drives us to deliver 
@@ -120,12 +120,12 @@ or stay ahead of industry changes, we provide the tailored support and guidance 
       
 
       <div className="relative z-30">
-        <h6 className='uppercase text-sky-300 text-lg text-center pt-8'>Take the Next Step</h6>
+        <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-24 xs:pt-8'>Take the Next Step</h6>
         <div className="flex justify-center mt-5 mb-10">
         <Divider divideColor="bg-white"/>
       </div>  
            
-        <p className='max-container text-center text-lg leading-normal lg:pt-4 font-thin text-white'>
+        <p className='max-container text-center lg:text-lg leading-normal lg:pt-4 font-thin text-white'>
         Ready to elevate your workforce and optimize your operations? Contact Jeva Energies & Solutions today
         to explore how our consultancy services can address your specific needs and help your organization achieve sustained success
         in the oil and gas sector.
@@ -133,7 +133,7 @@ or stay ahead of industry changes, we provide the tailored support and guidance 
           
 
         
-        <div className='flex justify-center py-8 mt-8'>
+        <div className='flex justify-center py-8 mt-8 xs:m-0'>
         <Button label="Reach Out To Us" link="/contact-us"/>
         </div>
       </div>

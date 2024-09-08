@@ -8,11 +8,11 @@ export const Services = () => {
     <section className='max-container py-12' id='#services'>
       <div>
         <h6 className='uppercase text-sky-500 text-center'>What we offer</h6>
-        <h1 className='text-center text-primary lg:text-4xl text-[25px] font-medium'>Over 20 years of combined expertise</h1>
+        <h1 className='text-center text-primary lg:text-4xl text-[25px] font-medium xs:leading-7'>Over 20 years of combined expertise</h1>
         <h6 className='text-center lg:text-[22px] py-4 font-thin'>We pride ourselves on the wealth of experience in our chosen markets.</h6>
       </div>
-      <div className="flex justify-center mt-5 mb-16">
-        <Divider divideColor="sky-800"/>
+      <div className="flex justify-center mt-5 mb-16 xs:mb-10">
+        <Divider divideColor="bg-primary"/>
        
       </div>
 

@@ -24,7 +24,7 @@ const MarineServices = () => {
   <div className="flex  mt-10">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary text-[35px] font-medium m-6 ml-4">Ensure Uninterrupted Operations</h2>
+    <h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4">Ensure Uninterrupted Operations</h2>
 
     <p className="text-lg font-thin leading-normal ml-4">For industries relying on a steady supply of petroleum products, Jeva Energies & Solutions 
       offers comprehensive services to ensure your operations remain uninterrupted. Whether it's bulk supply, filling stations, or specialized 
@@ -92,10 +92,7 @@ b.	Providing tailored fuel delivery services to meet the specific operational ne
 </p>
 
 
-<p className="text-lg font-thin leading-normal ml-4 py-12 mx-24">
-At Jeva Energies & Solutions, we are dedicated to raising industry standards by combining local knowledge with global expertise. Our mission is to foster sustainable growth and operational excellence across Africa, setting new standards for innovation and reliability in the energy sector. 
-If you're interested in partnering with us or learning more about how we can contribute to your success, please don't hesitate to reach out.
-</p>
+
 
 </div>
 
@@ -107,12 +104,12 @@ If you're interested in partnering with us or learning more about how we can con
       
 
       <div className="relative z-30">
-        <h6 className='uppercase text-sky-300 text-lg text-center pt-8'></h6>
-        <div className="flex justify-center mt-5 mb-10">
+        <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-20'></h6>
+        <div className="flex justify-center mt-5 mb-10 xs:pt-8">
         <Divider divideColor="bg-white"/>
       </div>  
            
-        <p className='max-container text-center text-lg leading-normal lg:pt-4 font-thin text-white'>
+        <p className='max-container text-center lg:text-lg leading-normal lg:pt-4 font-thin text-white'>
         At Jeva Energies & Solutions, we are dedicated to raising industry standards by combining local knowledge with global expertise. Our mission is to foster sustainable growth and operational excellence across Africa,
          setting new standards for innovation and reliability in the energy sector. 
         If you're interested in partnering with us or learning more about how we can contribute to your success, please don't hesitate to reach out. </p>

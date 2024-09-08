@@ -20,7 +20,9 @@ export const Footer = () => {
            />
                        
 
-                <p className="text-base leading-relaxed text-white-400 mt-7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <p className="text-base leading-relaxed text-white-400 mt-7">
+                Jeva Energies & Solutions operates across both downstream and upstream sectors of the oil and gas industry,
+                 applying this experience to add value in other thriving West African industries</p>
 
                 <ul className="flex items-center space-x-3 mt-9">
                     <li>

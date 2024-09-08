@@ -21,7 +21,7 @@ const CoreValues = () => {
         <div className="flex  mt-24">
         <Divider divideColor="bg-primary"/>
         </div>
-          <h2 className="text-primary text-[35px] font-medium m-6 ml-4">Jeva Energy core values</h2>
+          <h2 className="text-primary lg:text-[35px] text-[30px] xs:leading-8 font-medium m-6 ml-4">Jeva Energy core values</h2>
 
           <p className="text-lg font-thin leading-normal ml-4">At Rigworld, we have seven core values. They define us as a company and express who we are,
              how we think and act. These core values guide us and motivate us to perform better, and they represent a critical success 

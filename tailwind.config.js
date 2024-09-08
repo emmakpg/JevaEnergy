@@ -42,6 +42,7 @@ module.exports = {
         'hero_core': "url('/assets/images/hero_core.webp')",
         'petroltruck': "url('/assets/images/petroltruck.webp')",
         'petrolhead': "url('/assets/images/petrolhead.webp')",
+        'manpower': "url('/assets/images/manpower.webp')",
         'consultancy_hero': "url('/assets/images/consultancy_hero.webp')",
         'hero1': "url('/assets/images/hero1.jpg')",
         'hero2': "url('/assets/images/hero2.jpg')",
@@ -61,11 +62,13 @@ module.exports = {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       screens: {
-        "wide": "1440px",
-        'sm': '600px',  // Change small breakpoint to 600px
-        'md': '900px',  // Change medium breakpoint to 900px
-        'lg': '1200px', // Change large breakpoint to 1200px
-      }
+       'xs': '400px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px',
+      },
     },
   },
   plugins: [],
