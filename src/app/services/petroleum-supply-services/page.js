@@ -27,7 +27,7 @@ const MarineServices = () => {
     <h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4">Ensure Uninterrupted Operations</h2>
 
     <p className="text-lg font-thin leading-normal ml-4">For industries relying on a steady supply of petroleum products, Jeva Energies & Solutions 
-      offers comprehensive services to ensure your operations remain uninterrupted. Whether it's bulk supply, filling stations, or specialized 
+      offers comprehensive services to ensure your operations remain uninterrupted. Whether it&apos;s bulk supply, filling stations, or specialized 
       deliveries for the mining and other industries, our expertise guarantees a consistent and high-quality fuel supply.
        From initial consultation to final delivery, we provide tailored solutions to 
       meet your unique needs and keep your projects running smoothly.</p>
@@ -112,7 +112,7 @@ b.	Providing tailored fuel delivery services to meet the specific operational ne
         <p className='max-container text-center lg:text-lg leading-normal lg:pt-4 font-thin text-white'>
         At Jeva Energies & Solutions, we are dedicated to raising industry standards by combining local knowledge with global expertise. Our mission is to foster sustainable growth and operational excellence across Africa,
          setting new standards for innovation and reliability in the energy sector. 
-        If you're interested in partnering with us or learning more about how we can contribute to your success, please don't hesitate to reach out. </p>
+        If you&apos;re interested in partnering with us or learning more about how we can contribute to your success, please don&apos;t hesitate to reach out. </p>
           
 
         

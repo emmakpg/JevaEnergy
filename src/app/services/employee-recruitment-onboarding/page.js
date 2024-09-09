@@ -22,7 +22,7 @@ const EmployeeRecruitment = () => {
   <div className="flex  mt-10">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary text-[35px] font-medium m-6 ml-4 leading-10">Securing the Skilled Workforce Your Industry Needs</h2>
+    <h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4 leading-10">Securing the Skilled Workforce Your Industry Needs</h2>
 
     <p className="text-lg font-thin leading-normal ml-4">In the dynamic and fast-growing sectors of West Africa—including Oil and Gas, Mining,
        Construction, Power, Marine, Food and Beverage, and Petrochemicals—access to a highly skilled and diverse workforce is critical to success. 
