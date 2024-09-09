@@ -13,7 +13,7 @@ export const About = () => {
     <section className='max-container' >
       <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-1'>
        <div> 
-      <div className="flex justify-start mt-5 mb-7">
+      <div className="flex justify-start mt-5 xs:mt-[-8px] mb-7">
         <Divider divideColor="bg-primary"/>
       </div>
       <h1 className="text-primary lg:text-[35px] text-[30px] font-medium mb-5 xs:leading-8">We&apos;re proud of our journey</h1>
@@ -27,7 +27,7 @@ export const About = () => {
         </div>
       </div>
       <div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-1 pt-8 xs:hidden">
+        <div className="hidden lg:grid lg:grid-cols-3 gap-1 pt-8">
           <div className="flex items-center m-2 py-4 ">
             <div className="px-8">
             <h1 className="text-[60px] text-center font-medium tracking-widest text-primary">
@@ -39,12 +39,12 @@ export const About = () => {
               </h1>
             <p className='font-thin text-lg'>Personnels</p>
             </div>
-            <div class="h-full w-[1.5px] bg-gray-300"></div>
+            <div class="h-full w-[1.5px] bg-gray-300 "></div>
             
           </div>
-          <div className="flex items-center py-8  pl-8">
+          <div className="flex items-center py-8  pl-8 xs:text-center">
             <div className=''>
-            <h1 className='text-[60px] font-medium tracking-widest text-primary'>
+            <h1 className='text-[60px] font-medium text-center  text-primary pr-10 ml-2'>
             <CountUp
               start={0}
               end={2}
@@ -53,7 +53,7 @@ export const About = () => {
               </h1>
             <p className='font-thin pr-10 text-lg'>Countries</p>
             </div>
-            <div class="h-full w-[1.5px] bg-gray-300"></div>
+            <div class="h-full w-[1.5px] bg-gray-300 ml-5"></div>
             
           </div>
           <div className="flex items-center py-8 m-2 ">
