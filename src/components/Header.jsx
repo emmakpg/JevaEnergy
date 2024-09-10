@@ -13,13 +13,13 @@ export const Header = ({pageTitle,subText,imgURL}) => {
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                 <div >
                 
-                  <div className="flex justify-start mb-10 mt-5 xs:hidden">
+                  <div className="lg:flex justify-start mb-10 mt-5 hidden">
                   <Divider divideColor={"bg-white"}/>
                   </div>
                             
-                  <h1 className="relative lg:text-4xl text-2xl px-5 font-medium text-sky-200 lg:text-7xl">{pageTitle}</h1>
+                  <h1 className="relative lg:text-4xl text-2xl px-5 font-medium text-sky-200 lg:text-7xl pt-8 lg:pt-0">{pageTitle}</h1>
                           
-                  <p className="px-5 pt-5 lg:text-xl leading-normal font-normal text-gray-50 xs:pb-4">{subText}</p>
+                  <p className="px-5 pt-5 lg:text-xl leading-normal font-normal text-gray-50 pb-8">{subText}</p>
 
                     </div>
                     

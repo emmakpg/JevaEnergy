@@ -21,7 +21,7 @@ import CountUp from 'react-countup';
   <div className="flex  lg:mt-24 mt-4 ">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary lg:text-[35px] text-[30px] leading-9 font-medium m-6 ml-4">We&apos;re proud of our journey</h2>
+    <h2 className="text-primary lg:text-[35px] text-[30px] leading-8 font-medium m-6 ml-4">We&apos;re proud of our journey</h2>
 
     <p className="lg:text-lg font-thin  ml-4">Founded in 2023, Jeva Energies & Solutions is a key provider of upstream and downstream oil and gas services in Ghana and West Africa. Committed to industry growth, we deliver diverse services
        and focus on enhancing value and advancing the sector locally and regionally.</p>
@@ -46,7 +46,7 @@ import CountUp from 'react-countup';
 
 </section>
 
-<section className="lg:py-24  xs:py-8 bg-gray-100">
+<section className="lg:py-24 py-8 bg-gray-100">
 <div>
         <h6 className="uppercase text-sky-500 text-center"> How it all started</h6>
         <h1 className="text-center text-primary lg:text-4xl text-[30px] font-medium">The beginning of our story </h1>

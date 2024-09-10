@@ -16,7 +16,7 @@ export const About = () => {
       <div className="flex justify-start mt-5 xs:mt-[-8px] mb-7">
         <Divider divideColor="bg-primary"/>
       </div>
-      <h1 className="text-primary lg:text-[35px] text-[30px] font-medium mb-5 xs:leading-8">We&apos;re proud of our journey</h1>
+      <h1 className="text-primary lg:text-[35px] text-[30px] font-medium mb-5 leading-8">We&apos;re proud of our journey</h1>
       <p className="pr-6 lg:text-[18px] font-thin leading-normal">
       Founded in 2023, Jeva Energy & Solutions has emerged as a prominent provider of upstream and downstream oil and gas services
        in Ghana and West Africa. With a deep-rooted commitment to the industry, we have effectively delivered a diverse array of services. We are focused on ongoing growth and expansion,
