@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Image from 'next/image'
 import Button from '@/components/Button'
 import { Header } from '@/components/Header'
@@ -21,7 +21,7 @@ const BoltFitting = () => {
 <div className="flex  mt-10">
 <Divider divideColor="bg-primary"/>
 </div>
-  <h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4">Bolting Products for Your Most Critical Connections</h2>
+  <h2 className="text-primary lg:text-[35px] text-[25px] leading-8 font-medium m-6 ml-4">Bolting Products for Your Most Critical Connections</h2>
 
   <p className="text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions offers high-quality bolting products designed for securing 
     critical connections across a range of applications. Whether for offshore drilling and production equipment, power-generating turbo machinery, pumps, valves, pressure vessels, or industrial machinery, 
@@ -53,26 +53,26 @@ const BoltFitting = () => {
 
 <div className="max-container">
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">Bolt and Fitting Types</h2>
+<h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Bolt and Fitting Types</h2>
 <p className="text-lg font-thin leading-normal ml-4">
 U-bolt, Stud Bolt, Hex Bolts, Screws, etc.
 </p>
 
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">Bolting Specifications</h2>
+<h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Bolting Specifications</h2>
 <p className="text-lg font-thin leading-normal ml-4">
 ASME B18, A193, A194, A320, etc.
 </p>
 
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">Coating</h2>
+<h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Coating</h2>
 <p className="text-lg font-thin leading-normal ml-4">
 Xylan/PTFE, HDG, Zinc, Chromium, etc.
 </p>
 
 
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">Product Certificate</h2>
+<h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Product Certificate</h2>
 <p className="text-lg font-thin leading-normal ml-4">
 BS EN 10204 Type 3.1
 </p>
@@ -84,13 +84,13 @@ BS EN 10204 Type 3.1
 </section>
 
 <section>
-    <div className="relative bg-bolt w-full h-[500px] bg-cover bg-center">
+    <div className="relative bg-bolt w-full lg:h-[500px] h-[350px] bg-cover bg-center">
     <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
     
 
     <div className="relative z-30">
       <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-20'></h6>
-      <div className="flex justify-center mt-5 mb-10 xs:pt-8">
+      <div className="flex justify-center mt-5 pt-5 mb-10 xs:pt-8">
       <Divider divideColor="bg-white"/>
     </div>  
          
@@ -102,7 +102,7 @@ BS EN 10204 Type 3.1
         
 
       
-      <div className='flex justify-center py-8 mt-8'>
+      <div className='flex justify-center py-8'>
       <Button label="Reach Out To Us" link="/contact-us"/>
       </div>
     </div>

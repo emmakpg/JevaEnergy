@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const CvCard = ({imageUrl,label,value}) => {
   return (
-    <div className="bg-white shadow-lg rounded-md grid grid-cols-[1fr,5fr] p-10">
+    <div className="bg-white shadow-lg rounded-md grid grid-cols-[1fr,5fr] p-10 lg:h-[220px]">
          <div className="p-3 text-primary"> <Image
           src={imageUrl}
           alt="jeva_core_values"

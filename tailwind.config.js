@@ -45,6 +45,7 @@ module.exports = {
         'manpower': "url('/assets/images/manpower.webp')",
         'consultancy_hero': "url('/assets/images/consultancy_hero.webp')",
         'office_hero': "url('/assets/images/officehero.webp')",
+        'hose': "url('/assets/images/hoses.webp')",
         'bolt': "url('/assets/images/bolt.webp')",
         'hero1': "url('/assets/images/hero1.jpg')",
         'hero2': "url('/assets/images/hero2.jpg')",

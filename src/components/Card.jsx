@@ -13,7 +13,7 @@ const Card = ({imageURL,title,caption,link}) => {
       height={700}
       className="rounded-t-md hover:scale-110 transition-transform duration-500"
       />
-      <h2 className="text-primary text-lg font-medium py-4 px-4 hover:underline">{title}</h2>
+      <h2 className="text-primary text-lg font-medium py-4 mt-2 px-4 hover:underline">{title}</h2>
 
       <p className="text-lg font-thin leading-normal ml-4 pb-4">
         {caption}
