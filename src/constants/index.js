@@ -13,7 +13,7 @@ export const navLinks = [
         { href: "/about/core-values", label: "Core Values" },
         { href: "/about", label: "Our Journey" },
         { href: "/about/management-team", label: "Our Management Team" },
-        { href: "/", label: "Corporate Social Responsibilities" }] },
+        { href: "/about/corporate-social-responsibilities", label: "Corporate Social Responsibilities" }] },
     { href: "#services", label: "Services", submenuServices:[{ href: "/services//petroleum-supply-services", label: "Petroleum Supply Services" },
         { href: "/services/consultancy-services/", label: "General Consultancy Services" },
         { href: "/services/equipment-supply-services", label: "Equipment/Material Supply Services" },
