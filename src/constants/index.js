@@ -74,7 +74,7 @@ export const hero = [
         image: "happy_engineer",
     },
     {
-        title: "Comprehensive Solutions, with Jeva",
+        title: "Comprehensive Solutions",
         text: "Optimize operations with our comprehensive solutions, utilizing skilled teams and top-quality facilities. We offer the tools to unlock value and achieve success",
         image: "handshakes",
     },
@@ -144,6 +144,35 @@ export const core_values=[
         value:"Utilizing our internal capabilities, resources, and experience, we are well-prepared to address and manage challenges while fulfilling our clients' expectations."
         ,imageURL:"/assets/svg/focus.svg"
     },
+]
+
+export const equipment_supply=[
+    {
+        title:"Hydraulic Hoses",
+        value:`Engineered for high-pressure hydraulic fluids, ideal for machinery and equipment.`,
+        imageURL:"/assets/images/hoses.webp",
+        link:"/services/equipment-supply-services/hydraulic-hoses"
+    },
+    {
+        title:"Bolt & Fittings",
+        value:"Precision-engineered bolt-on fittings guarantee the integrity and secure operation of your high-pressure systems, including pressure vessels and pipelines.",
+        imageURL:"/assets/images/bolt.webp",
+        link:"/services/equipment-supply-services/bolt-fittings"
+    },
+    {
+        title:"Advanced System & On-Site Workshop Services",
+        value:"Fully equipped mobile workshops for repair and maintenance tasks, minimizing operational disruptions."
+        ,imageURL:"/assets/images/workshop.webp",
+        link:"/services/equipment-supply-services/advanced-system-onsite-workshop-services"
+    },
+    {
+        title:"Office Supplies",
+        value:`A comprehensive range of essential items to support efficient office operations,
+         including stationery, printing materials, and organizational tools.`
+        ,imageURL:"/assets/images/office.webp",
+        link:"/services/equipment-supply-services/office-supplies",
+    },
+    
 ]
 
 

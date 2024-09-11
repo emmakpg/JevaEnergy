@@ -2,6 +2,8 @@ import { Header } from "@/components/Header"
 import Divider from "@/components/Divider"
 import Image from "next/image"
 import Button from "@/components/Button"
+import Card from "@/components/Card"
+import { equipment_supply } from "@/constants"
 
 const EquipmentSupply = () => {
   return (
@@ -50,32 +52,25 @@ const EquipmentSupply = () => {
 
 <div className="max-container">
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">Hydraulic Hoses</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-Engineered for high-pressure hydraulic fluids, ideal for machinery and equipment.
-</p>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-10">
+   {equipment_supply.map((item)=>(
+   
+      <Card
+      key={item.title}
+      title={item.title}
+      caption={item.value}
+      imageURL={item.imageURL}
+      link={item.link}
+      
+      />
 
+    
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">Bolt & Fittings</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-Precision-engineered bolt-on fittings guarantee the integrity and secure operation of your high-pressure systems,<br/>
- including pressure vessels and pipelines.
-</p>
+   ))
 
+}
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">Advanced System & On-Site Workshop Services</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-Fully equipped mobile workshops for repair and maintenance tasks, minimizing operational disruptions.
-</p>
-
-
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">Office Supplies</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-A comprehensive range of essential items to support efficient office operations, including stationery, printing materials, and organizational tools.
-</p>
-
-
-
+  </div>
 
 
 </div>

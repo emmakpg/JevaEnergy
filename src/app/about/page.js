@@ -137,7 +137,7 @@ import CountUp from 'react-countup';
         <h1 className="text-center text-white text-8xl font-normal">
         <CountUp
               start={0}
-              end={300}
+              end={30}
               duration={3}
               />
               k</h1>

@@ -12,7 +12,7 @@ const CvCard = ({imageUrl,label,value}) => {
           </div>
           <div>
             <h2 className="text-primary text-[25px] font-medium">{label}</h2>
-            <p className="text-lg font-thin leading-normal">{value}</p>
+            <p className="lg:text-[20px] font-thin leading-normal">{value}</p>
           </div>
 
 
