@@ -58,10 +58,12 @@ export const ServicesHome =[
 
 
 export const miscLinks = [
-    { href: "/about/core-values", label: "Core Values"},
-    { href: "/about/management-team", label: "Our Team"}, 
+    { href: "/services/petroleum-supply-services", label: "Petroleum Supply"},
+    { href: "/services/equipment-supply-services", label: "Equipment Supply "}, 
         
-    { href: "/", label: "Industries"}, 
+    { href: "/services/consultancy-services", label: "General Consultancy "}, 
+
+    { href: "/services/employee-recruitment-onboarding", label: "Employee Recruitment"}, 
       
     { href: "/services/protocol-services", label: "Protocol & Logistics" },
 ];
@@ -171,6 +173,64 @@ export const equipment_supply=[
          including stationery, printing materials, and organizational tools.`
         ,imageURL:"/assets/images/office.webp",
         link:"/services/equipment-supply-services/office-supplies",
+    },
+    
+]
+
+export const petroleum_supply=[
+    {
+        title:"Bulk Supply",
+        value:`a. Providing large-scale petroleum product deliveries to meet the high demands of industrial clients.
+b. Ensuring a reliable and consistent supply chain to support continuous operations and prevent downtime.`,
+        imageURL:"/assets/images/hoses.webp",
+        
+    },
+    {
+        title:"Filling Stations",
+        value:`a. Operating state-of-the-art filling stations to supply petroleum products directly to individual consumers and businesses.
+b. Offering high-quality fuels and efficient customer service to ensure a seamless fueling experience.`,
+        imageURL:"/assets/images/bolt.webp",
+    },
+    {
+        title:"Mining Industries",
+        value:`a. Delivering specialized petroleum products tailored to the unique requirements of the mining sector.
+b. Ensuring timely and reliable fuel supply to support the uninterrupted operation of mining equipment and activities.`
+        ,imageURL:"/assets/images/workshop.webp",
+     
+    },
+    {
+        title:"Other Industrial Sectors",
+        value:`a. Serving a wide range of industries including construction, manufacturing, and transportation with customized petroleum solutions.
+b. Providing tailored fuel delivery services to meet the specific operational needs of each sector, ensuring efficiency and reliability.`
+        ,imageURL:"/assets/images/office.webp",
+     
+    },
+    
+]
+
+export const csr=[
+    {
+        title:"Girl Child Education",
+        value:`We support education through scholarships, mentorship programs, and infrastructure development, especially for young girls in underserved regions. These initiatives aim to empower girls with the knowledge and skills to succeed in various fields.`,
+        imageURL:"/assets/images/girlchild.webp",
+        
+    },
+    {
+        title:"Health Screenings",
+        value:`We provide free medical check-ups, diagnostic tests, and health education, helping communities in need access early disease detection and preventive care.`,
+        imageURL:"/assets/images/health.webp",
+    },
+    {
+        title:"Sanitation and Hygiene",
+        value:`Our sanitation projects focus on improving access to clean water, building sanitation facilities, and educating communities on hygiene practices to prevent waterborne diseases.`
+        ,imageURL:"/assets/images/sanitation.webp",
+     
+    },
+    {
+        title:"Environmental Stewardship",
+        value:`We promote sustainable practices like waste management and resource conservation, working with communities to raise awareness about protecting the environment.`
+        ,imageURL:"/assets/images/stewardship.webp",
+     
     },
     
 ]

@@ -19,11 +19,11 @@ const EquipmentSupply = () => {
 
 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5">
   <div className="m-5">
-  <div className="flex  mt-10 mb-10">
+  <div className="flex  mt-10 lg:mb-10 mb-4">
   <Divider divideColor="bg-primary"/>
   </div>
 
-    <p className="text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions specializes in the supply and installation of critical oil
+    <p className="lg:text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions specializes in the supply and installation of critical oil
        field equipment, including computers, communication devices, and personal protective equipment. We provide a wide range of high-quality
         equipment and materials necessary for focused industry needs,
        supported by our extensive network of suppliers and manufacturers. Our offerings include:</p>
@@ -70,31 +70,6 @@ const EquipmentSupply = () => {
 </section>
 
 
-
-<section>
-      <div className="relative bg-office_hero w-full h-[500px] bg-cover bg-center">
-      <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
-      
-
-      <div className="relative z-30">
-        <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-20'></h6>
-    
-      
-      
-        
-          
-
-        
-      </div>
-
-    
-     
-
-     
-      
-    </div>
-      
-    </section>
 </div>
   )
 }

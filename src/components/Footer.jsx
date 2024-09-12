@@ -60,7 +60,7 @@ export const Footer = () => {
             </div>
 
             <div>
-                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Company</p>
+                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Menu Links</p>
 
                 <ul className="mt-6 space-y-4">
                     
@@ -76,7 +76,7 @@ export const Footer = () => {
             </div>
 
             <div>
-                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Misc</p>
+                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Services</p>
 
                 <ul className="mt-6 space-y-4">
                 {miscLinks.map((item,index)=>(

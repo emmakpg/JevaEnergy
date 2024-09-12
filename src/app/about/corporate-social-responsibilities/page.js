@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Button from '@/components/Button'
 import { Header } from '@/components/Header'
 import Divider from '@/components/Divider'
+import PCard from '@/components/PCard'
+import { csr } from '@/constants'
 
 const CSR = () => {
   return (
@@ -18,10 +20,10 @@ const CSR = () => {
 
 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5">
 <div className="m-5">
-<div className="flex mb-10 mt-10">
+<div className="flex lg:mb-10 mb-4">
 <Divider divideColor="bg-primary"/>
 </div>
-  <p className="text-lg font-thin leading-normal ml-4">JAt Jeva Energies & Solutions, we are committed to creating a positive impact 
+  <p className="lg:text-lg font-thin ml-4">At Jeva Energies & Solutions, we are committed to creating a positive impact 
     beyond our core oil and gas business. Our Corporate Social Responsibility (CSR) initiatives focus on education, health, sanitation, 
     and environmental stewardship, aimed at fostering sustainable community development.</p>
 
@@ -38,40 +40,34 @@ const CSR = () => {
 
 <section className="sm:py-4 bg-[#f5f5f5] lg:py-16">
 
+
 <div className="max-container">
 
+<div className="max-container grid sm:grid-cols-1 md:grid-cols-1 gap-10">
+        {
+          csr.map((item,index)=>(
+            <div key={index}>
+              <PCard
+              imageUrl={item.imageURL}
+              label={item.title}
+              value={item.value}
+              />
+              </div>
 
-<h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Girl Child Education</h2>
-<p className="text-lg font-thin leading-normal ml-4">
- We support education through scholarships, mentorship programs, and infrastructure development, 
-especially for young girls 
-in underserved regions. These initiatives aim to empower girls with the knowledge and skills to succeed in various fields.
-</p>
+          ))
+        }
 
-<h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Health Screenings</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-We provide free medical check-ups, diagnostic tests, 
-and health education, helping communities in need access early disease detection and preventive care.
-</p>
+        <div>
+          
+          
+        </div>
+        
+      </div>
 
-<h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Sanitation and Hygiene</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-Our sanitation projects focus on improving access to clean water, 
-building sanitation facilities, and educating communities on hygiene practices to prevent waterborne diseases.
-</p>
-
-
-
-<h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Environmental Stewardship</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-We promote sustainable practices like waste management and resource conservation, 
-working with communities to raise awareness about protecting the environment.
-</p>
 
 
 
 </div>
-
 </section>
 
 <section>

@@ -4,6 +4,8 @@ import { Header } from "@/components/Header"
 import Divider from "@/components/Divider"
 import Image from "next/image"
 import Button from "@/components/Button"
+import { petroleum_supply } from "@/constants"
+import PCard from "@/components/PCard"
 
 
 
@@ -26,20 +28,20 @@ const MarineServices = () => {
   </div>
     <h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4">Ensure Uninterrupted Operations</h2>
 
-    <p className="text-lg font-thin leading-normal ml-4">For industries relying on a steady supply of petroleum products, Jeva Energies & Solutions 
+    <p className="lg:text-lg font-thin ml-4">For industries relying on a steady supply of petroleum products, Jeva Energies & Solutions 
       offers comprehensive services to ensure your operations remain uninterrupted. Whether it&apos;s bulk supply, filling stations, or specialized 
       deliveries for the mining and other industries, our expertise guarantees a consistent and high-quality fuel supply.
        From initial consultation to final delivery, we provide tailored solutions to 
       meet your unique needs and keep your projects running smoothly.</p>
 
-    <p className="text-lg font-thin leading-normal ml-4 py-4">We provide a reliable and consistent supply of refined petroleum products.
+    <p className="lg:text-lg font-thin ml-4 py-4">We provide a reliable and consistent supply of refined petroleum products.
        Our extensive distribution network ensures that our clients receive high-quality products on time, every time.</p>
           
 
 
   </div>
   <div>
-    <div className="lg:mt-32">
+    <div className="lg:mt-12 py-10">
       <Image src="/assets/images/petroleum.webp"
       alt="core_values"
       width={700}
@@ -59,37 +61,26 @@ const MarineServices = () => {
 
 <div className="max-container">
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">1. Bulk Supply</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-a.	Providing large-scale petroleum product deliveries to meet the high demands of industrial clients.
-</p>
-<p className="text-lg font-thin leading-normal ml-4 py-4">
-b.	Ensuring a reliable and consistent supply chain to support continuous operations and prevent downtime.
-</p>
+<div className="max-container grid sm:grid-cols-1 md:grid-cols-1 gap-10">
+        {
+          petroleum_supply.map((item,index)=>(
+            <div key={index}>
+              <PCard
+              imageUrl={item.imageURL}
+              label={item.title}
+              value={item.value}
+              />
+              </div>
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">2. Filling Stations</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-a.	Operating state-of-the-art filling stations to supply petroleum products directly to individual consumers and businesses.
-</p>
-<p className="text-lg font-thin leading-normal ml-4 py-4">
-b.	Offering high-quality fuels and efficient customer service to ensure a seamless fueling experience.
-</p>
+          ))
+        }
 
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">3.	Mining Industries</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-a.	Delivering specialized petroleum products tailored to the unique requirements of the mining sector.
-</p>
-<p className="text-lg font-thin leading-normal ml-4 py-4">
-b.	Ensuring timely and reliable fuel supply to support the uninterrupted operation of mining equipment and activities.
-</p>
-
-<h2 className="text-primary text-2xl font-medium m-6 ml-4">4.	Other Industrial Sectors</h2>
-<p className="text-lg font-thin leading-normal ml-4">
-a.	Serving a wide range of industries including construction, manufacturing, and transportation with customized petroleum solutions.
-</p>
-<p className="text-lg font-thin leading-normal ml-4 py-4">
-b.	Providing tailored fuel delivery services to meet the specific operational needs of each sector, ensuring efficiency and reliability.
-</p>
+        <div>
+          
+          
+        </div>
+        
+      </div>
 
 
 
@@ -104,12 +95,12 @@ b.	Providing tailored fuel delivery services to meet the specific operational ne
       
 
       <div className="relative z-30">
-        <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-20'></h6>
-        <div className="flex justify-center mt-5 mb-10 xs:pt-8">
-        <Divider divideColor="bg-white"/>
-      </div>  
-           
-        <p className='max-container text-center lg:text-lg leading-normal lg:pt-4 font-thin text-white'>
+      <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-20'></h6>
+      <div className="flex justify-center mt-5 pt-5 mb-10 xs:pt-8">
+      <Divider divideColor="bg-white"/>
+    </div>  
+         
+      <p className='max-container text-center lg:text-lg leading-normal lg:pt-4 font-thin text-white'>
         At Jeva Energies & Solutions, we are dedicated to raising industry standards by combining local knowledge with global expertise. Our mission is to foster sustainable growth and operational excellence across Africa,
          setting new standards for innovation and reliability in the energy sector. 
         If you&apos;re interested in partnering with us or learning more about how we can contribute to your success, please don&apos;t hesitate to reach out. </p>

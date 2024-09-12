@@ -15,7 +15,7 @@ const Card = ({imageURL,title,caption,link}) => {
       />
       <h2 className="text-primary text-lg font-medium py-4 mt-2 px-4 hover:underline">{title}</h2>
 
-      <p className="text-lg font-thin leading-normal ml-4 pb-4">
+      <p className="lg:text-lg font-thin leading-normal ml-4 pb-4">
         {caption}
       </p>
 
