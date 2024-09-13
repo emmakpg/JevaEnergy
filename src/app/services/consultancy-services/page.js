@@ -54,7 +54,7 @@ const ConsultancyServices = () => {
 
 </section>
 
-<section className="sm:py-4 bg-[#f5f5f5] lg:py-16">
+<section className="sm:py-4 bg-[#f5f5f5] lg:py-16 pt-6">
 
 <div className="max-container">
 
@@ -84,18 +84,18 @@ const ConsultancyServices = () => {
 </div>
 
 </section>
-<section className="bg-white lg:py-10">
+<section className="bg-white lg:py-10 pb-6">
 <div className="max-container">
   
-<h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4">Why Partner with Jeva Energies & Solutions?</h2>
+<h2 className="text-primary lg:text-[35px] text-[25px] leading-8 font-medium m-6 ml-4">Why Partner with Jeva Energies & Solutions?</h2>
 <h2 className="text-primary text-2xl font-medium m-6 ml-4">Access to Industry Expertise</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 When you partner with Jeva Energies & Solutions, you gain access to a team of seasoned professionals with deep industry expertise. Our commitment to excellence and client success drives us to deliver 
 solutions that make a tangible difference in your operations.
 </p>
 
 <h2 className="text-primary text-2xl font-medium m-6 ml-4">Tailored Support for Your Success</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 Whether your objective is to upskill your workforce, streamline operations, 
 or stay ahead of industry changes, we provide the tailored support and guidance needed to achieve your goals.
 </p>
@@ -104,13 +104,13 @@ or stay ahead of industry changes, we provide the tailored support and guidance 
 
 </section>
 
-<section>
+<section className="">
       <div className="relative bg-consultancy_hero w-full h-[500px] bg-cover bg-center">
       <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
       
 
       <div className="relative z-30">
-        <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-24 xs:pt-8'>Take the Next Step</h6>
+        <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-24 pt-8'>Take the Next Step</h6>
         <div className="flex justify-center mt-5 mb-10">
         <Divider divideColor="bg-white"/>
       </div>  

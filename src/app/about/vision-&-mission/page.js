@@ -7,7 +7,7 @@ const VisionMission = () => {
     <div>
     <Header
      pageTitle="Vision & Mission"
-     imgURL="bg-aboutUs"
+     imgURL="bg-vision"
      subText="Aspiring to be recognized as the epitome of reliability and sustainability in the sector"
      />
 

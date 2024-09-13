@@ -18,7 +18,8 @@ export const navLinks = [
         { href: "/services/consultancy-services/", label: "General Consultancy Services" },
         { href: "/services/equipment-supply-services", label: "Equipment/Material Supply Services" },
         { href: "/services/employee-recruitment-onboarding/", label: "Employee Recruitment & Onboarding" },
-        { href: "/services/protocol-services/", label: "Protocol Services" },] },
+        { href: "/services/protocol-services/", label: "Protocol & Logistics Services" },] },
+        { href: "/industries", label: "Industries"},
     { href: "/contact-us", label: "Contact Us"},
 ];
 
@@ -302,6 +303,53 @@ export const consultancy_services=[
     },
     
 ]
+
+
+export const industries=[
+    {
+        title:"Oil and Gas",
+        value:`Optimize costs, improve safety, and enhance operations in remote locations through efficient workforce development, fleet management, logistics, and specialized equipment maintenance. These solutions help drive productivity and ensure smooth operations in the oil and gas sector.`,
+        imageURL:"/assets/icons/oil.png",
+        
+    },
+    {
+        title:"Mining Industry",
+        value:`Tailored solutions address challenges in mining such as infrastructure limitations and skilled labor shortages. With services like fleet management, logistics, and workforce development, mining operations in remote areas can run smoothly and efficiently.`,
+        imageURL:"/assets/icons/mining.png",
+    },
+    {
+        title:"Food and Beverage Industry",
+        value:`Streamline logistics, improve operational efficiency, and navigate customs with comprehensive support for the food and beverage sector. Optimized supply chains and specialized equipment maintenance help companies meet industry demands and regulatory requirements.`
+        ,imageURL:"/assets/icons/food.png",
+     
+    },
+    {
+        title:"Power Industry",
+        value:`Support for both traditional and renewable power facilities is crucial to ensure operational success. Efficient logistics, workforce training, and fleet management services help keep energy production running smoothly, regardless of location or energy type.`
+        ,imageURL:"/assets/icons/power.png",
+     
+    },
+    {
+        title:"Marine Industry",
+        value:`Reduce costs and streamline operations in the marine sector through efficient inland transportation, maintenance services, and workforce development. Simplified logistics and specialized equipment solutions help companies meet regulatory challenges and minimize downtime.`
+        ,imageURL:"/assets/icons/marine.png",
+     
+    },
+    {
+        title:"Construction Industry",
+        value:`Overcome supply chain disruptions, ensure safety compliance, and drive infrastructure development with comprehensive support. Specialized equipment, workforce development, and efficient logistics solutions help construction projects remain on track and meet safety standards.`
+        ,imageURL:"/assets/icons/construction.png",
+     
+    },
+    {
+        title:"Petrochemical Industry",
+        value:`Maximize efficiency in petrochemical operations by addressing labor needs, optimizing supply chains, and ensuring equipment reliability. Tailored solutions in workforce development, logistics, and equipment maintenance ensure safe and efficient operations.`
+        ,imageURL:"/assets/icons/petrochemical.png",
+     
+    },
+    
+]
+
 
 
 export const team = [
