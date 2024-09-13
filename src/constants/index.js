@@ -27,31 +27,31 @@ export const navLinks = [
 export const ServicesHome =[
     {
     label:"Petroleum Products Supply Services",
-    icon:<GiMiniSubmarine size={55} className="text-white"/>,
+    icon:"/assets/icons/petrol.png",
     link:"/services/petroleum-supply-services",
     bImage:"bg-petrolhead"
 },
 {
     label:"Equipment/Material Supply Services",
-    icon:<FaTools size={55} className="text-white"/>,
+    icon:"/assets/icons/equipment.png",
     link:"/services/equipment-supply-services",
     bImage:"bg-pg_equipment"
 },
 {
     label:"General Consultancy Services",
-    icon:<MdCastForEducation size={55} className="text-white"/>,
+    icon:"/assets/icons/consultancy.png",
     link:"/services/consultancy-services",
     bImage:"bg-pg_consultancy"
 },
 {
     label:"Employee recruitment & onboarding",
-    icon:<MdEngineering size={55} className="text-white"/>,
+    icon:"/assets/icons/employee.png",
     link:"/services/employee-recruitment-onboarding",
     bImage:"bg-pg_onboarding"
 },
 {
     label:"Protocol & Logistic Services",
-    icon:<FaHandsHelping size={55} className="text-white"/>,
+    icon:"/assets/icons/protocol.png",
     link:"/services/protocol-services",
     bImage:"bg-pg_protocol"
 },

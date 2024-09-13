@@ -9,7 +9,7 @@ const PCard = ({imageUrl,label,value}) => {
           alt="jeva_core_values"
           width={500}
           height={500}
-          className="rounded-l-lg"
+          className="lg:rounded-l-lg"
           />
           </div>
           <div className="lg:mt-20 py-4 pb-8 px-4"> 
