@@ -17,7 +17,7 @@ export const navLinks = [
     { href: "#services", label: "Services", submenuServices:[{ href: "/services//petroleum-supply-services", label: "Petroleum Supply Services" },
         { href: "/services/consultancy-services/", label: "General Consultancy Services" },
         { href: "/services/equipment-supply-services", label: "Equipment/Material Supply Services" },
-        { href: "/services/employee-recruitment-onboarding/", label: "Employee recruitment & onboarding" },
+        { href: "/services/employee-recruitment-onboarding/", label: "Employee Recruitment & Onboarding" },
         { href: "/services/protocol-services/", label: "Protocol Services" },] },
     { href: "/contact-us", label: "Contact Us"},
 ];
@@ -182,27 +182,27 @@ export const petroleum_supply=[
         title:"Bulk Supply",
         value:`a. Providing large-scale petroleum product deliveries to meet the high demands of industrial clients.
 b. Ensuring a reliable and consistent supply chain to support continuous operations and prevent downtime.`,
-        imageURL:"/assets/images/hoses.webp",
+        imageURL:"/assets/images/bulk.webp",
         
     },
     {
         title:"Filling Stations",
         value:`a. Operating state-of-the-art filling stations to supply petroleum products directly to individual consumers and businesses.
 b. Offering high-quality fuels and efficient customer service to ensure a seamless fueling experience.`,
-        imageURL:"/assets/images/bolt.webp",
+        imageURL:"/assets/images/filling.webp",
     },
     {
         title:"Mining Industries",
         value:`a. Delivering specialized petroleum products tailored to the unique requirements of the mining sector.
 b. Ensuring timely and reliable fuel supply to support the uninterrupted operation of mining equipment and activities.`
-        ,imageURL:"/assets/images/workshop.webp",
+        ,imageURL:"/assets/images/mining.webp",
      
     },
     {
         title:"Other Industrial Sectors",
         value:`a. Serving a wide range of industries including construction, manufacturing, and transportation with customized petroleum solutions.
 b. Providing tailored fuel delivery services to meet the specific operational needs of each sector, ensuring efficiency and reliability.`
-        ,imageURL:"/assets/images/office.webp",
+        ,imageURL:"/assets/images/otherindus.webp",
      
     },
     
@@ -230,6 +230,74 @@ export const csr=[
         title:"Environmental Stewardship",
         value:`We promote sustainable practices like waste management and resource conservation, working with communities to raise awareness about protecting the environment.`
         ,imageURL:"/assets/images/stewardship.webp",
+     
+    },
+    
+]
+
+
+export const manpower_supply=[
+    {
+        title:"Skilled Personnel",
+        value:`We source and supply top-tier professionals from across Africa, Western nations, and Eastern regions, ensuring that you have access to a broad spectrum of expertise.`,
+        imageURL:"/assets/icons/skilled.png",
+        
+    },
+    {
+        title:"Extensive Database",
+        value:`Our expansive resume database is rich with experienced, talented, and skilled individuals who are ready to meet the specific needs of your industry.`,
+        imageURL:"/assets/icons/database.png",
+    },
+    {
+        title:"Foreign Worker and Expatriate Document Management",
+        value:`We expertly manage all aspects of documentation for foreign workers and expatriates, including work permits, residence permits, and other essential legal requirements.`
+        ,imageURL:"/assets/icons/work.png",
+     
+    },
+    {
+        title:"Airport Assistance",
+        value:`Our meet-and-greet services provide seamless support for arrivals, departures, and transit passengers, ensuring a smooth transition for your workforce`
+        ,imageURL:"/assets/icons/airport.png",
+     
+    },
+    {
+        title:"Visa Support",
+        value:`We handle a wide range of visa requirements, including multiple-entry, single-entry, visa-on-arrival, and visa extensions, making the process hassle-free for both employers and employees.`
+        ,imageURL:"/assets/icons/symbols.png",
+     
+    },
+    
+]
+
+
+export const consultancy_services=[
+    {
+        title:"Regulatory Compliance & Safety",
+        value:`Our training emphasizes regulatory compliance, helping your team not only meet but exceed industry standards. By reducing risks and fostering a culture of safety, we contribute to creating a more secure and productive workplace.`,
+        imageURL:"/assets/icons/regulatory.png",
+        
+    },
+    {
+        title:"Strategic Consultancy and Expert Guidance",
+        value:`Optimizing Operations for Success - Our consultancy services go beyond training by offering strategic planning and expert advice tailored to the complexities of the oil and gas sector. We collaborate closely with our clients to optimize operations, improve efficiency, and drive profitability.`,
+        imageURL:"/assets/icons/operation.png",
+    },
+    {
+        title:"Bespoke Solutions",
+        value:`Understanding that each client’s needs are unique, we craft bespoke solutions that help you navigate the ever-evolving industry landscape, ensuring your business remains competitive, compliant, and resilient.`
+        ,imageURL:"/assets/icons/solutions.png",
+     
+    },
+    {
+        title:"Workforce Development and Upskilling",
+        value:`Building a Future-Ready Team - We recognize the importance of continuous learning and development in the oil and gas industry. Our workforce development programs focus on upskilling your team, ensuring they are prepared to meet current and future industry challenges. Whether it’s technical skills, leadership development, or safety protocols, we provide comprehensive training that aligns with your strategic goals.`
+        ,imageURL:"/assets/icons/workflow.png",
+     
+    },
+    {
+        title:"Operational Efficiency and Risk Mitigation",
+        value:`Streamlining Processes - Jeva Energies & Solutions is dedicated to enhancing your operational efficiency. We assess your current processes and identify areas for improvement, implementing strategies that streamline operations and reduce costs. Our approach is proactive, focusing on risk mitigation to prevent disruptions and ensure smooth, uninterrupted operations.`
+        ,imageURL:"/assets/icons/shortage.png",
      
     },
     

@@ -23,7 +23,7 @@ const CoreValues = () => {
         </div>
           <h2 className="text-primary lg:text-[35px] text-[30px] xs:leading-8 font-medium m-6 ml-4">Jeva Energy core values</h2>
 
-          <p className="text-lg font-thin leading-normal ml-4">At Rigworld, we have seven core values. They define us as a company and express who we are,
+          <p className="text-lg font-thin leading-normal ml-4">At Jeva, we have six core values. They define us as a company and express who we are,
              how we think and act. These core values guide us and motivate us to perform better, and they represent a critical success 
             factor in our efforts to achieve our common goals and create an attractive work place.</p>
                 
