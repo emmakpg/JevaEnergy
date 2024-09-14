@@ -6,7 +6,7 @@ const RCard = ({imageUrl,label,value}) => {
     <div className="bg-white shadow-md rounded-md grid lg:grid-cols-[1fr,4fr] grid-cols-1 p-4 h-full">
          <div className=" text-primary lg:p-4 mt-4"> <Image
           src={imageUrl}
-          alt="employee_onboarding"
+          alt={label}
           width={170}
           height={170}
           className="lg:mt-6"

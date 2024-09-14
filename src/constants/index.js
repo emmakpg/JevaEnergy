@@ -51,7 +51,7 @@ export const ServicesHome =[
 },
 {
     label:"Protocol & Logistic Services",
-    icon:"/assets/icons/protocol.png",
+    icon:"/assets/icons/logistics.png",
     link:"/services/protocol-services",
     bImage:"bg-pg_protocol"
 },
@@ -178,6 +178,22 @@ export const equipment_supply=[
     
 ]
 
+
+export const protocol_logistics=[
+    {
+        title:"Transportation and Protocol Servicess",
+        value:`At Jeva Energies & Solutions, we offer a full suite of protocol and logistics services designed to meet the diverse needs of our clients across various industries. Our services ensure seamless transportation, efficient supply chain management, and tailored support to enhance operational efficiency and reduce costs.`,
+        imageURL:"/assets/images/psupply.webp",
+        link:"/services/protocol-services/transportation-services"
+    },
+    {
+        title:"Logistics Services",
+        value:"Jeva Energies & Solutions offers comprehensive logistics services to support industries operating in remote locations. From the transport of personnel and bulky equipment to hazardous materials, our solutions are designe to keep your projects on track from initial planning to final delivery.",
+        imageURL:"/assets/images/logistics.webp",
+        link:"/services/protocol-services/logistics-services"
+    },
+]
+
 export const petroleum_supply=[
     {
         title:"Bulk Supply",
@@ -207,6 +223,90 @@ b. Providing tailored fuel delivery services to meet the specific operational ne
      
     },
     
+]
+
+export const logistics_sub=[
+    {
+        title:"Global Freight Forwarding",
+        value:`Custom-tailored solutions for domestic and international logistics via air, sea, road, and rail.`,
+        imageURL:"/assets/icons/freight.png",
+        
+    },
+    {
+        title:"Customs Brokerage and Clearance",
+        value:`Expertise in smooth and compliant cross-border movement of goods, minimizing delays.`,
+        imageURL:"/assets/icons/clearance.png",
+    },
+    {
+        title:"Trucking and Haulage",
+        value:`Reliable scheduling and advanced technology for efficient freight delivery throughout West Africa.`
+        ,imageURL:"/assets/icons/haulage.png",
+     
+    },
+    {
+        title:"Ship Agency and Husbandry",
+        value:`Comprehensive support for vessel operations during port calls, safeguarding your interests.`
+        ,imageURL:"/assets/icons/ship.png",
+     
+    },
+    {
+        title:"Project Cargo Logistics",
+        value:`Specialized transport of large, high-value, or critical equipment for energy, mining, and construction industries.`
+        ,imageURL:"/assets/icons/cargo.png",
+     
+    },
+    {
+        title:"Specialized Oil and Gas Logistics",
+        value:`Expertise in handling complex project cargo for the oil and gas sector, ensuring safe and timely delivery.`
+        ,imageURL:"/assets/icons/oilngas.png",
+     
+    },
+    {
+        title:"Consolidation and Groupage",
+        value:`Cost-effective shipping solutions by consolidating smaller consignments into a single marine container.`
+        ,imageURL:"/assets/icons/consolidate.png",
+     
+    },
+    {
+        title:"Warehousing",
+        value:`Strategic warehousing solutions to store raw materials and finished products closer to business locations for on-demand access.`
+        ,imageURL:"/assets/icons/warehouse.png",
+     
+    },
+]
+
+
+export const transportation_sub=[
+    {
+        title:"Extensive Fleet Selection",
+        value:`Choose from a wide range of vehicles using our secure online portal for easy reservation and management.`,
+        imageURL:"/assets/icons/cargo.png",
+        
+    },
+    {
+        title:"Flexible Leasing Options",
+        value:`Tailor your lease duration to meet specific needs with both long-term and short-term rentals.`,
+        imageURL:"/assets/icons/deal.png",
+    },
+    {
+        title:"Advanced Vehicle Tracking",
+        value:`Benefit from real-time monitoring and data analytics for optimized routes and maintenance.`
+        ,imageURL:"/assets/icons/tracking.png",
+     
+    },
+    {
+        title:"Streamlined Protocol Services",
+        value:`Receive prompt assistance with visas, work permits, police clearance, and more.`
+        ,imageURL:"/assets/icons/system.png",
+     
+    },
+    {
+        title:"Customized Accommodation Solutions",
+        value:`Centralized booking system with negotiated rates and exclusive deals across Ghana and West Africa.`
+        ,imageURL:"/assets/icons/cogwheel.png",
+     
+    },
+
 ]
 
 export const csr=[

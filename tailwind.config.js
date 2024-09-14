@@ -50,6 +50,7 @@ module.exports = {
         'csr': "url('/assets/images/csr.webp')",
         'hose': "url('/assets/images/hoses.webp')",
         'bolt': "url('/assets/images/bolt.webp')",
+        'logistics': "url('/assets/images/logistics.webp')",
         'hero1': "url('/assets/images/hero1.jpg')",
         'hero2': "url('/assets/images/hero2.jpg')",
         'hero3': "url('/assets/images/hero.webp')",
