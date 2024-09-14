@@ -3,6 +3,7 @@ import "./globals.css";
 import localFont from "next/font/local"
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
 
 
 //const carnas = localFont({src: '../assets/fonts/carnas_light.woff',subsets: ['latin']})
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
       <Navbar/>
 
         {children}
+        <BackToTop/>
         <Footer/>
       
       </main>
