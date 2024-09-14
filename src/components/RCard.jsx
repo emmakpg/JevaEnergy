@@ -13,8 +13,8 @@ const RCard = ({imageUrl,label,value}) => {
           />
           </div>
           <div className="lg:mt-10 py-4 pb-8 px-1"> 
-            <h2 className="text-primary text-[25px] font-medium">{label}</h2>
-            <p className="lg:text-lg font-thin leading-normal" style={{ whiteSpace: 'pre-wrap' }}>{value}</p>
+            <h2 className="text-primary text-[25px] font-medium leading-7">{label}</h2>
+            <p className="lg:text-lg font-thin leading-normal pt-4" style={{ whiteSpace: 'pre-wrap' }}>{value}</p>
           </div>
 
 

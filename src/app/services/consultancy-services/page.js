@@ -43,7 +43,7 @@ const ConsultancyServices = () => {
       alt="core_values"
       width={700}
       height={700}
-      className="shadow-lg rounded-lg"
+      className="shadow-lg lg:rounded-lg"
       />
 
     </div>

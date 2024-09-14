@@ -6,15 +6,7 @@ import Image from "next/image"
 import { FaAngleDown } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { DropDown } from "./DropDown";
-import {
-  Menubar,
-  MenubarContent,
-  MenubarItem,
-  MenubarMenu,
-  MenubarSeparator,
-  MenubarShortcut,
-  MenubarTrigger,
-} from "@/components/ui/menubar"
+import MobileMenu from "./MobileMenu";
 
 
 
@@ -26,6 +18,14 @@ export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
 
   const [menuItem, setmenuItem] = useState(null)
+
+  const [isMmenuC, setMmenuC] = useState(false)
+
+  const handleMM = () => {
+
+      setMmenuC((prevMmenuC) => !prevMmenuC)
+
+  }
 
   useEffect(()=>{
 
@@ -112,19 +112,21 @@ export const Navbar = () => {
             
          
 
-        <button type="button" class="inline-flex p-2 ml-1 text-white  transition-all duration-200 rounded-md sm:ml-4 lg:hidden
+        <button type="button" onClick={handleMM} class="inline-flex p-2 ml-1 text-white  transition-all duration-200 rounded-md sm:ml-4 lg:hidden
        focus:bg-gray-800 hover:bg-sky-900 hover:text-white">
         
-         <svg className="block w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+         <svg className= {isMmenuC ? "hidden w-8 h-8":"block w-8 h-8"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                     </svg>
 
-         <svg className="hidden w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+         <svg className={isMmenuC ? "w-8 h-8":"hidden w-8 h-8"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
           </svg>
         </button>
         
          </nav>
+
+         {isMmenuC? <MobileMenu handleMenuClose={handleMM}/>:""}
        
     </header>
   )
