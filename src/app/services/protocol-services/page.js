@@ -21,7 +21,7 @@ const ProtocolServices = () => {
   <div className="flex  mt-10">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary lg:text-[35px] text-[25px] leading-7 font-medium m-6 ml-4">Comprehensive Transportation and Logistical Support</h2>
+    <h2 className="text-primary lg:text-[35px] text-[25px] leading-7 lg:leading-10 font-medium m-6 ml-4">Comprehensive Transportation and Logistical Support</h2>
 
     <p className="lg:text-lg font-thin leading-normal ml-4">At Jeva Energies & Solutions, we offer a full suite of protocol and logistics services 
       designed to meet the diverse needs of our clients across various industries. Our services ensure seamless transportation, efficient
