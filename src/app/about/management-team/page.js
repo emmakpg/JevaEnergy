@@ -32,8 +32,8 @@ const ManagementTeam = () => {
 
   </div>
   <div>
-    <div className="">
-      <Image src="/assets/images/pg_corevalues.jpg"
+    <div className="lg:mt-12">
+      <Image src="/assets/images/team.webp"
       alt="management"
       width={700}
       height={700}
