@@ -1,5 +1,5 @@
 import Spinner from "@/components/Spinner"
-import { navLinks } from "@/constants"
+import { mobileMenu } from "@/constants"
 import Link from "next/link"
 
 const MobileMenu = ({handleMenuClose}) => {
@@ -7,7 +7,7 @@ const MobileMenu = ({handleMenuClose}) => {
     <div className="flex justify-center items-center h-screen bg-black/80">
         <ul className="flex flex-col">
     {
-        navLinks.map((item)=>(
+        mobileMenu.map((item)=>(
             <li key={item.label}>
             <Link href={item.href} role="button" onClick={handleMenuClose}
              className='leading-normal text-xl text-sky-200 font-thin hover:text-gray-100 active:text-yellow-100'>

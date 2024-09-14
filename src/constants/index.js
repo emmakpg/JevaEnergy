@@ -23,6 +23,14 @@ export const navLinks = [
     { href: "/contact-us", label: "Contact Us"},
 ];
 
+export const mobileMenu = [
+    { href: "/", label: "Home"},
+    { href: "/about", label: "About Us"},
+    { href: "/#services", label: "Services", },
+    { href: "/industries", label: "Industries"},
+    { href: "/contact-us", label: "Contact Us"},
+];
+
 
 export const ServicesHome =[
     {
