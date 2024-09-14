@@ -189,7 +189,7 @@ export const equipment_supply=[
 
 export const protocol_logistics=[
     {
-        title:"Transportation and Protocol Servicess",
+        title:"Transportation and Protocol Services",
         value:`At Jeva Energies & Solutions, we offer a full suite of protocol and logistics services designed to meet the diverse needs of our clients across various industries. Our services ensure seamless transportation, efficient supply chain management, and tailored support to enhance operational efficiency and reduce costs.`,
         imageURL:"/assets/images/psupply.webp",
         link:"/services/protocol-services/transportation-services"
