@@ -32,7 +32,7 @@ const CoreValues = () => {
         </div>
         <div>
           <div>
-            <Image src="/assets/images/pg_corevalues.jpg"
+            <Image src="/assets/images/corevalues.webp"
             alt="core_values"
             width={700}
             height={700}
