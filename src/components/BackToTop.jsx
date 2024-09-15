@@ -33,7 +33,7 @@ const BackToTop = () => {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-10 right-10 p-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300"
+          className="fixed bottom-10 right-10 p-3 bg-blue-600/40 text-white rounded-full shadow-lg hover:bg-blue-700/50 transition-colors duration-300"
         >
           ↑ Back to Top
         </button>

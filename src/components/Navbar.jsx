@@ -68,7 +68,7 @@ export const Navbar = () => {
            <div className="lg:mx-40">
            <Link href="/">
            <Image
-           src="/assets/images/jeva_logo.png"
+           src="/assets/images/jeva_logo1.png"
            alt="jeva_logo"
            width={220}
            height={30}
