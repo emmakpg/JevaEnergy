@@ -10,7 +10,7 @@ import { MdEngineering } from "react-icons/md";
 export const navLinks = [
     { href: "/", label: "Home"},
     { href: "/about", label: "About Us", submenuAbout:[{ href: "/about/vision-&-mission", label: "Vision & Mission" },
-        { href: "/about/core-values", label: "Core Values" },
+        { href: "/about/core-values", label: "Our Core Values" },
         { href: "/about", label: "Our Journey" },
         { href: "/about/management-team", label: "Our Management Team" },
         { href: "/about/corporate-social-responsibilities", label: "Corporate Social Responsibilities" }] },
@@ -191,13 +191,13 @@ export const protocol_logistics=[
     {
         title:"Transportation and Protocol Services",
         value:`At Jeva Energies & Solutions, we offer a full suite of protocol and logistics services designed to meet the diverse needs of our clients across various industries. Our services ensure seamless transportation, efficient supply chain management, and tailored support to enhance operational efficiency and reduce costs.`,
-        imageURL:"/assets/images/psupply.webp",
+        imageURL:"/assets/images/transportation.webp",
         link:"/services/protocol-services/transportation-services"
     },
     {
         title:"Logistics Services",
         value:"Jeva Energies & Solutions offers comprehensive logistics services to support industries operating in remote locations. From the transport of personnel and bulky equipment to hazardous materials, our solutions are designe to keep your projects on track from initial planning to final delivery.",
-        imageURL:"/assets/images/logistics.webp",
+        imageURL:"/assets/images/logistics1.webp",
         link:"/services/protocol-services/logistics-services"
     },
 ]

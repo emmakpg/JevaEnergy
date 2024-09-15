@@ -19,7 +19,7 @@ export const Navbar = () => {
 
   const [menuItem, setmenuItem] = useState(null)
 
-  const [isMmenuC, setMmenuC] = useState(false)
+  const [isMmenuC, setMmenuC] = useState(false)  //state for mobile menu display
 
   const handleMM = () => {
 
@@ -83,7 +83,7 @@ export const Navbar = () => {
                     <li key={item.label}>
                                       
                         <Link href={item.href} role="button" className='leading-normal text-xl text-sky-200 font-thin hover:text-gray-100 active:text-yellow-100'>
-                        <div onMouseEnter={()=>toggleSubmenu(item.label)} className="flex flex-1 justify-center items-center">       
+                        <div onMouseEnter={()=>toggleSubmenu(item.label)} onClick={()=>toggleSubmenu(item.label)} className="flex flex-1 justify-center items-center">       
                         {item.label} {item.submenuAbout && <FaAngleDown />} {item.submenuServices && <FaAngleDown />}
                        
                    

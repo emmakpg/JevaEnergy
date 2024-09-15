@@ -9,7 +9,7 @@ const CoreValues = () => {
     
     <div>
     <Header
-     pageTitle="Core Values"
+     pageTitle="Our Core Values"
      imgURL="bg-hs_corevalues"
      subText="Empowering Success through Shared Values."
      />
@@ -21,7 +21,7 @@ const CoreValues = () => {
         <div className="flex  mt-24">
         <Divider divideColor="bg-primary"/>
         </div>
-          <h2 className="text-primary lg:text-[35px] text-[30px] xs:leading-8 font-medium m-6 ml-4">Jeva Energy core values</h2>
+          <h2 className="text-primary lg:text-[35px] text-[30px] xs:leading-8 font-medium m-6 ml-4">Jeva Energies & Solutions core values</h2>
 
           <p className="lg:text-lg font-thin  ml-4">At Jeva, we have six core values. They define us as a company and express who we are,
              how we think and act. These core values guide us and motivate us to perform better, and they represent a critical success 

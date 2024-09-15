@@ -34,9 +34,9 @@ const Transportation = () => {
 
 </div>
 <div>
-  <div className="lg:mt-10">
-    <Image src="/assets/images/protocol_page.webp"
-    alt="core_values"
+  <div className="lg:mt-5">
+    <Image src="/assets/images/transportation1.webp"
+    alt="services"
     width={700}
     height={700}
     className="shadow-lg rounded-lg"
