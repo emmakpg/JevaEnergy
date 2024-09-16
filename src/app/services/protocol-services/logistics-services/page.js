@@ -11,7 +11,7 @@ const Logistics = () => {
   <div>
   <Header
    pageTitle="Logistics Services"
-   imgURL="bg-logistics"
+   imgURL="bg-logistics-hero"
    subText="Jeva Energies & Solutions offers comprehensive logistics services to support industries operating in remote locations."
    />
 

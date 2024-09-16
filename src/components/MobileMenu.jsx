@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const MobileMenu = ({handleMenuClose}) => {
   return (
-    <div className="flex justify-center items-center h-screen bg-black/80">
+    <div className="flex justify-center items-center h-screen bg-black/80 overflow-hidden">
         <ul className="flex flex-col">
     {
         mobileMenu.map((item)=>(

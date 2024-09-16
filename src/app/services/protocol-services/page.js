@@ -4,6 +4,7 @@ import Divider from "@/components/Divider"
 import Card from "@/components/Card"
 import { protocol_logistics } from "@/constants"
 import Button from "@/components/Button"
+import Image from "next/image"
 
 const ProtocolServices = () => {
   return (
@@ -27,6 +28,18 @@ const ProtocolServices = () => {
       designed to meet the diverse needs of our clients across various industries. Our services ensure seamless transportation, efficient
        supply chain management, and tailored support to enhance operational efficiency and reduce costs.</p>
 
+  </div>
+  <div>
+    
+  <div className="lg:mt-4">
+    <Image src="/assets/images/tls.webp"
+    alt="core_values"
+    width={700}
+    height={700}
+    className="shadow-lg rounded-lg"
+    />
+
+  </div>
   </div>
   
 

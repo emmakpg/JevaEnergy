@@ -11,7 +11,7 @@ const Transportation = () => {
   <div>
   <Header
    pageTitle="Transportation and Protocol Services"
-   imgURL="bg-petroltruck"
+   imgURL="bg-transport"
    subText="We provide a well-maintained fleet of vehicles, ranging from sedans and SUVs to
      trucks and specialized vehicles, all available for lease or rental."
    />

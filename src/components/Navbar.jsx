@@ -82,9 +82,9 @@ export const Navbar = () => {
                 {navLinks.map((item)=>(
                     <li key={item.label}>
                                       
-                        <Link href={item.href} role="button" className='leading-normal text-xl text-sky-200 font-thin hover:text-gray-100 active:text-yellow-100'>
+                        <Link href={item.href} role="button" className='leading-normal lg:text-[18px] text-sky-200 font-thin hover:text-gray-100 active:text-yellow-100'>
                         <div onMouseEnter={()=>toggleSubmenu(item.label)} onClick={()=>toggleSubmenu(item.label)} className="flex flex-1 justify-center items-center">       
-                        {item.label} {item.submenuAbout && <FaAngleDown />} {item.submenuServices && <FaAngleDown />}
+                        {item.label} {item.submenuAbout && <FaAngleDown size={15}/>} {item.submenuServices && <FaAngleDown size={15} />}
                        
                    
 

@@ -51,6 +51,8 @@ module.exports = {
         'hose': "url('/assets/images/hoses.webp')",
         'bolt': "url('/assets/images/bolt.webp')",
         'logistics': "url('/assets/images/logistics.webp')",
+        'logistics-hero': "url('/assets/images/logistics1.webp')",
+        'transport': "url('/assets/images/transportation.webp')",
         'hero1': "url('/assets/images/hero1.jpg')",
         'hero2': "url('/assets/images/hero2.jpg')",
         'hero3': "url('/assets/images/hero.webp')",

@@ -20,9 +20,9 @@ const ManagementTeam = () => {
   <div className="flex  lg:mt-24">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary lg:text-[35px] text-[30px] xs:leading-8 font-medium m-6 ml-4">Our Team & Expertise</h2>
+    <h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4">Our Team & Expertise</h2>
 
-    <p className="text-lg font-thin leading-normal ml-4">
+    <p className="lg:text-lg font-thin leading-normal ml-4">
     Jeva Energy and Solutions is propelled by a remarkable team of industry specialists whose deep experience and 
     expertise drive our success. Our leadership consists of accomplished professionals who excel in their areas, contributing a wealth of knowledge and a history of excellence that guides our strategic direction and operational effectiveness. Every team member acts as a catalyst for innovation and growth, 
     dedicated to achieving outstanding results and advancing our mission of excellence in the energy sector.
