@@ -117,7 +117,7 @@ import CountUp from 'react-countup';
         <CountUp
               start={0}
               end={20}
-              duration={3}
+              duration={7}
               />
           +
           </h1>
@@ -128,7 +128,7 @@ import CountUp from 'react-countup';
         <CountUp
               start={0}
               end={200}
-              duration={3}
+              duration={7}
               />
         </h1>
         <p className='text-center text-lg pt-4 font-thin text-white'>Staff size</p>
@@ -138,7 +138,7 @@ import CountUp from 'react-countup';
         <CountUp
               start={0}
               end={30}
-              duration={3}
+              duration={7}
               />
               k</h1>
         <p className='text-center text-lg pt-4 font-thin text-white'>cubic square meter operating capacity</p>

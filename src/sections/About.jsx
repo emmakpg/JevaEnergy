@@ -34,7 +34,7 @@ export const About = () => {
               <CountUp
               start={0}
               end={200}
-              duration={3}
+              duration={7}
               />
               </h1>
             <p className='font-thin text-lg'>Personnels</p>
@@ -48,7 +48,7 @@ export const About = () => {
             <CountUp
               start={0}
               end={2}
-              duration={3}
+              duration={7}
               />
               </h1>
             <p className='font-thin pr-10 text-lg'>Countries</p>
@@ -62,7 +62,7 @@ export const About = () => {
             <CountUp
               start={0}
               end={30}
-              duration={4}
+              duration={7}
               />k
               </h1>
             <p className='font-thin text-lg text-center'>cubic square meter Operating Capacity</p>
