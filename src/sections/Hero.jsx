@@ -14,8 +14,8 @@ import HeroSwipe from "@/components/HeroSwipe"
 export const Hero = () => {
   return (
     <section id="home">
-      <div className="min-h-20 py-2 
-      sm:py-16 lg:py-40 bg-cover bg-left bg-blend-luminosity bg-hero3">
+      <div className="lg:min-h-screen py-2 
+      sm:py-16 lg:py-40 bg-cover bg-right-top  lg:bg-sky-900/40 bg-gray-900/60 bg-blend-darken bg-excited">
   
 
     

@@ -58,7 +58,9 @@ module.exports = {
         'hero3': "url('/assets/images/hero.webp')",
         'industry_hero': "url('/assets/images/industry_hero.webp')",
         'vision': "url('/assets/images/vision.webp')",
+        'building': "url('/assets/images/building.webp')",
         'about_us': "url('/assets/images/about_us.webp')",
+        'excited': "url('/assets/images/excited.webp')",
         'coreValues': "url('/assets/images/jeva_1.jpg')",
       },
       colors: {

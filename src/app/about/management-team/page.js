@@ -9,7 +9,7 @@ const ManagementTeam = () => {
     <div>
       <Header
      pageTitle="Structure And Management"
-     imgURL="bg-pg_consultancy"
+     imgURL="bg-building"
      subText="Empowering Success through Shared Values."
      />
 

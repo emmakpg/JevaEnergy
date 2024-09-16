@@ -2,8 +2,9 @@ import Button from '@/components/Button'
 import { Header } from '@/components/Header'
 import Divider from '@/components/Divider'
 import RCard from '@/components/RCard'
-import { csr } from '@/constants'
 import { industries } from '@/constants'
+import Image from 'next/image'
+
 
 const Industries = () => {
   return (
@@ -28,6 +29,18 @@ const Industries = () => {
         
 
 
+</div>
+<div>
+  
+<div className="lg:mt-4">
+    <Image src="/assets/images/industries-page.webp"
+    alt="core_values"
+    width={700}
+    height={700}
+    className="shadow-lg rounded-lg"
+    />
+
+  </div>
 </div>
 
 
