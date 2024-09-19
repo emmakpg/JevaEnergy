@@ -24,7 +24,7 @@ const HydraulicHose = () => {
 </div>
   <h2 className="text-primary lg:text-[35px] text-[25px] leading-8 font-medium m-6 ml-4">Hose Assemblies Management Services </h2>
 
-  <p className="text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions also specializes in hose assemblies and complementary products,
+  <p className="lg:text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions also specializes in hose assemblies and complementary products,
      catering to diverse needs across the oil and gas, renewable energy,
      general industrial, and marine sectors in West Africa. Our services include:</p>
 
@@ -39,7 +39,7 @@ const HydraulicHose = () => {
     alt="core_values"
     width={700}
     height={700}
-    className="shadow-lg rounded-lg"
+    className="shadow-lg lg:rounded-lg"
     />
 
   </div>
@@ -55,41 +55,40 @@ const HydraulicHose = () => {
 <div className="max-container">
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">High-Pressure Pipes and Fittings</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 Engineered to withstand high fluid pressures, ideal for drilling and injection systems.
 </p>
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Specialist Hose Assemblies</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 Pre-assembled and ready for immediate use in hydraulic, pneumatic, and other fluid transfer systems.
 </p>
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">End Connections and Fittings</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
   Components used to connect hoses to pipes, valves, and other equipment, ensuring secure and reliable connections.
 </p>
 
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Metallic Hoses</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 Offering high strength and flexibility, these hoses are designed for extreme temperatures and pressures and are used in high-vibration environments.
 </p>
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Field Support Services</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 Providing on-site assistance for hose maintenance, repair, and installation needs.
 </p>
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Recertification - Pressure Testing</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 Controlled testing to verify that hoses can continue to withstand the required pressure, ensuring safety and reliability.
 </p>
-
 
 </div>
 

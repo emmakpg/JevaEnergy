@@ -37,7 +37,7 @@ const Industries = () => {
     alt="core_values"
     width={700}
     height={700}
-    className="shadow-lg rounded-lg"
+    className="shadow-lg lg:rounded-lg"
     />
 
   </div>
@@ -48,7 +48,7 @@ const Industries = () => {
 
 </section>
 
-<section className="sm:py-4 bg-[#f5f5f5] lg:py-16">
+<section className="py-4 bg-[#f5f5f5] lg:py-16">
 
 
 <div className="max-container">

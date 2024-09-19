@@ -23,7 +23,7 @@ const BoltFitting = () => {
 </div>
   <h2 className="text-primary lg:text-[35px] text-[25px] leading-8 font-medium m-6 ml-4">Bolting Products for Your Most Critical Connections</h2>
 
-  <p className="text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions offers high-quality bolting products designed for securing 
+  <p className="lg:text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions offers high-quality bolting products designed for securing 
     critical connections across a range of applications. Whether for offshore drilling and production equipment, power-generating turbo machinery, pumps, valves, pressure vessels, or industrial machinery, 
     our products are engineered to meet the highest standards of reliability and performance.</p>
 
@@ -38,7 +38,7 @@ const BoltFitting = () => {
     alt="core_values"
     width={700}
     height={700}
-    className="shadow-lg rounded-lg"
+    className="shadow-lg lg:rounded-lg"
     />
 
   </div>
@@ -54,26 +54,26 @@ const BoltFitting = () => {
 <div className="max-container">
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Bolt and Fitting Types</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 U-bolt, Stud Bolt, Hex Bolts, Screws, etc.
 </p>
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Bolting Specifications</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 ASME B18, A193, A194, A320, etc.
 </p>
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Coating</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 Xylan/PTFE, HDG, Zinc, Chromium, etc.
 </p>
 
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Product Certificate</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 BS EN 10204 Type 3.1
 </p>
 

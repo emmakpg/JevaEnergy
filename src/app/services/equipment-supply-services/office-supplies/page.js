@@ -22,7 +22,7 @@ const OfficeSupplies = () => {
 </div>
   <h2 className="text-primary lg:text-[35px] text-[25px] leading-9 font-medium m-6 ml-4">Essential Resources for Optimal Office Efficiency</h2>
 
-  <p className="text-lg font-thin leading-normal ml-4">At Jeva Energies & Solutions, we offer a curated selection of office supplies to enhance 
+  <p className="lg:text-lg font-thin leading-normal ml-4">At Jeva Energies & Solutions, we offer a curated selection of office supplies to enhance 
     your operational efficiency. Our range includes Engineering Tools, Communication Devices, Computing Equipment, and Stationery. 
     Each category is designed to meet the diverse needs of modern offices, ensuring smooth and productive workflows.
      Explore our offerings to find everything you need for a well-organized and efficient workspace.</p>
@@ -38,7 +38,7 @@ const OfficeSupplies = () => {
     alt="core_values"
     width={700}
     height={700}
-    className="shadow-lg rounded-lg"
+    className="shadow-lg lg:rounded-lg"
     />
 
   </div>
@@ -53,7 +53,7 @@ const OfficeSupplies = () => {
 
 <div className="max-container">
 <h2 className="text-primary text-2xl font-medium m-6 ml-4">Stationery and Printing</h2>
-<ul className="list-disc pl-5 list-inside text-lg font-thin leading-normal ml-4">
+<ul className="list-disc pl-5 lg:list-inside lg:text-lg font-thin leading-normal ml-4">
     <li>Writing Instruments - Pens, pencils, markers, and highlighters.</li>
     <li>Paper Products - Notepads, notebooks, sticky notes, and various types of printing paper.</li>
     <li>Office Essentials - Binders, folders, staplers, and paper clips.</li>
@@ -62,7 +62,7 @@ const OfficeSupplies = () => {
 
 
 <h2 className="text-primary text-2xl font-medium m-6 ml-4">Communication and Computing</h2>
-<ul className="list-disc pl-5 list-inside text-lg font-thin leading-normal ml-4">
+<ul className="list-disc pl-5 lg:list-inside lg:text-lg font-thin leading-normal ml-4">
     <li>Telecommunication - Desk phones, headsets, and conference call equipment</li>
     <li>Mailing and Shipping - Mailing bags, boxes, and packing tape.</li>
     <li>Computer Accessories - Keyboards, mice, monitors, and external drives.</li>
@@ -71,7 +71,7 @@ const OfficeSupplies = () => {
 
 
 <h2 className="text-primary text-2xl font-medium m-6 ml-4">Organizational and Furniture</h2>
-<ul className="list-disc pl-5 list-inside text-lg font-thin leading-normal ml-4">
+<ul className="list-disc pl-5 lg:list-inside lg:text-lg font-thin leading-normal ml-4">
     <li>Desk Accessories - Organizers, calendars, and desk mats.</li>
     <li>Office Furniture - Filing cabinets, ergonomic chairs, and meeting room equipment.</li>
     <li>Computer Accessories - Keyboards, mice, monitors, and external drives.</li>
@@ -80,7 +80,7 @@ const OfficeSupplies = () => {
 
 
 <h2 className="text-primary text-2xl font-medium m-6 ml-4">Engineering and Miscellaneous </h2>
-<ul className="list-disc pl-5 list-inside text-lg font-thin leading-normal ml-4">
+<ul className="list-disc pl-5 lg:list-inside lg:text-lg font-thin leading-normal ml-4">
     <li>Technical Instruments - Measurement tools and maintenance kits.</li>
     <li>Health and Safety - First aid kits, sanitizers, and fire extinguishers.</li>
     </ul>

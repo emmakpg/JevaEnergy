@@ -22,7 +22,7 @@ const OnsiteWorkshop = () => {
 </div>
   <h2 className="text-primary lg:text-[35px] text-[25px] leading-8 font-medium m-6 ml-4">Advanced Systems and On-Site Services</h2>
 
-  <p className="text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions provides cutting-edge solutions designed to enhance safety, 
+  <p className="lg:text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions provides cutting-edge solutions designed to enhance safety, 
     efficiency, and operational reliability across various industries.</p>
 
 
@@ -36,7 +36,7 @@ const OnsiteWorkshop = () => {
     alt="core_values"
     width={700}
     height={700}
-    className="shadow-lg rounded-lg"
+    className="shadow-lg lg:rounded-lg"
     />
 
   </div>
@@ -52,19 +52,19 @@ const OnsiteWorkshop = () => {
 <div className="max-container">
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Fire Suppression Systems</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 Our advanced fire suppression systems offer rapid response and effective fire control to protect valuable assets and enhance safety.
 </p>
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Auto Lubrication Systems</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 We supply state-of-the-art auto lubrication systems that ensure consistent lubrication of machinery, reducing wear and extending equipment lifespan.
 </p>
 
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">On-Site Workshop Services</h2>
-<p className="text-lg font-thin leading-normal ml-4">
+<p className="lg:text-lg font-thin leading-normal ml-4">
 Our mobile workshops are fully equipped to perform a variety of repair and maintenance tasks, providing immediate support and minimizing operational disruptions.
 </p>
 

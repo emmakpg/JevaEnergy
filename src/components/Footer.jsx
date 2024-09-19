@@ -1,8 +1,9 @@
 
-import { miscLinks, navLinks } from "@/constants";
+import { miscLinks, navLinks, otherLinks } from "@/constants";
 import Link from "next/link";
 import { FaAngleRight } from "react-icons/fa";
 import Image from "next/image";
+
 
 export const Footer = () => {
   return (
@@ -20,11 +21,11 @@ export const Footer = () => {
            />
                        
 
-                <p className="text-base leading-relaxed text-white-400 mt-7">
+                <p className="lg:block text-base leading-relaxed text-white-400 mt-7 hidden">
                 Jeva Energies & Solutions operates across both downstream and upstream sectors of the oil and gas industry,
                  applying this experience to add value in other thriving West African industries</p>
 
-                <ul className="flex items-center space-x-3 mt-9">
+                <ul className="flex items-center space-x-3 lg:mt-9 mt-2">
                     <li>
                         <a href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-sky-800  focus:bg-blue-600">
                             <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -91,7 +92,20 @@ export const Footer = () => {
             </div>
 
             <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
-               
+            <div>
+                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Other Links</p>
+
+                <ul className="mt-6 space-y-4">
+                {otherLinks.map((item,index)=>(
+                            <li key={index} >
+                                <Link href={item.href} className="flex text-base text-white-400 transition-all duration-200 hover:text-gray-400 focus:text-gray-400">
+                                {item.label}
+                                </Link>
+                            </li>
+                        ))}
+                           
+                </ul>
+            </div>
             </div>
         </div>
 

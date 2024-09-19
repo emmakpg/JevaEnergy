@@ -26,9 +26,15 @@ export const navLinks = [
 export const mobileMenu = [
     { href: "/", label: "Home"},
     { href: "/about", label: "About Us"},
-    { href: "/#services", label: "Services", },
     { href: "/industries", label: "Industries"},
     { href: "/contact-us", label: "Contact Us"},
+];
+
+export const otherLinks = [
+    { href: "/", label: "Management Team"},
+    { href: "/about/vision-&-mission", label: "Vision & Mission"},
+    { href: "/about/core-values", label: "Core Values", },
+    { href: "/about/corporate-social-responsibilities", label: "Corporate Social Responsibilities"},
 ];
 
 
