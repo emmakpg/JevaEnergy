@@ -10,7 +10,7 @@ const EquipmentSupply = () => {
     <div>
     <Header
      pageTitle="Equipment/Material Supply Services"
-     imgURL="bg-pg_equipment"
+     imgURL="bg-equipment-hero"
      subText="Our extensive network of suppliers and manufacturers ensures that we can provide the best tools and materials for any project."
      />
 
@@ -19,7 +19,7 @@ const EquipmentSupply = () => {
 
 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5">
   <div className="m-5">
-  <div className="flex  mt-10 lg:mb-10 mb-4">
+  <div className="flex  mt-10 lg:mt-20 lg:mb-10 mb-4">
   <Divider divideColor="bg-primary"/>
   </div>
 
@@ -32,7 +32,15 @@ const EquipmentSupply = () => {
 
   </div>
   <div>
-    
+  <div className="lg:mt-4">
+    <Image src="/assets/images/equipment.webp"
+    alt="core_values"
+    width={700}
+    height={700}
+    className="shadow-lg lg:rounded-lg"
+    />
+
+  </div>
    
   </div>
 

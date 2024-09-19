@@ -62,6 +62,7 @@ module.exports = {
         'about_us': "url('/assets/images/about_us.webp')",
         'map': "url('/assets/images/map.png')",
         'excited': "url('/assets/images/excited.webp')",
+        'equipment-hero': "url('/assets/images/equipment-hero.webp')",
         'coreValues': "url('/assets/images/jeva_1.jpg')",
       },
       colors: {

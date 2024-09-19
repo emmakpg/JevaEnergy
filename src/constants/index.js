@@ -49,7 +49,7 @@ export const ServicesHome =[
     label:"Equipment/Material Supply Services",
     icon:"/assets/icons/equipment.png",
     link:"/services/equipment-supply-services",
-    bImage:"bg-pg_equipment"
+    bImage:"bg-equipment-hero"
 },
 {
     label:"General Consultancy Services",
