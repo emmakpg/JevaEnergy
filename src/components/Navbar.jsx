@@ -112,7 +112,7 @@ export const Navbar = () => {
             
          
 
-        <button type="button" onClick={handleMM} class="inline-flex p-2 ml-1 text-white  transition-all duration-200 rounded-md sm:ml-4 lg:hidden
+        <button type="button" onClick={handleMM} class="inline-flex p-2 ml-1 text-white  transition-all duration-200 delay-500 rounded-md sm:ml-4 lg:hidden
        focus:bg-gray-800 hover:bg-sky-900 hover:text-white">
         
          <svg className= {isMmenuC ? "hidden w-8 h-8":"block w-8 h-8"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

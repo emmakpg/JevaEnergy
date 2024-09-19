@@ -38,7 +38,7 @@ const CSR = () => {
 
 </section>
 
-<section className="sm:py-4 bg-[#f5f5f5] lg:py-16">
+<section className="py-8 bg-[#f5f5f5] lg:py-16">
 
 
 <div className="max-container">

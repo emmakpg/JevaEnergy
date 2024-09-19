@@ -13,7 +13,7 @@ export const About = () => {
     <section className='max-container' >
       <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-1'>
        <div> 
-      <div className="flex justify-start mt-5 xs:mt-[-8px] mb-7">
+      <div className="flex justify-start lg:mt-5  mb-7">
         <Divider divideColor="bg-primary"/>
       </div>
       <h1 className="text-primary lg:text-[35px] text-[30px] font-medium mb-5 leading-8">We&apos;re proud of our journey</h1>
