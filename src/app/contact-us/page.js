@@ -3,6 +3,8 @@ import { Header } from "@/components/Header"
 import { useRef } from "react";
 import Maps from "@/components/Maps";
 import emailjs from '@emailjs/browser';
+import Divider from "@/components/Divider";
+import Button from "@/components/Button";
 
 
  const ContactUsPage = () => {
@@ -143,7 +145,33 @@ const sendEmail = (e) => {
     </div>
  
     <div>
-        <Maps/>
+    <section>
+      <div className="lg:h-[700px] lg:py-32 bg-cover bg-center bg-gray-900/30 bg-blend-darken bg-map">
+
+  
+  <div className="px-4 mx-auto max-w-[1500px] sm:px-6 lg:px-1 xs:pt-8">
+            <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+                <div >
+                
+                  <div className="lg:flex justify-start mb-10 mt-5 hidden">
+                  <Divider divideColor={"bg-primary"}/>
+                  </div>
+                            
+                  <h1 className="relative lg:text-4xl text-2xl px-5 font-medium text-primary lg:text-[50px] pt-8 lg:pt-0">Visit Us</h1>
+                          
+                  <p className="px-5 pt-5 lg:text-xl leading-normal font-normal text-primary 0 pb-8"></p>
+
+                  <Button 
+                  link="https://www.google.com/maps/place/5%C2%B036'02.0%22N+0%C2%B010'38.4%22W/@5.6005635,-0.1773366,17z/data=!3m1!4b1!4m4!3m3!8m2!3d5.6005635!4d-0.1773366?entry=ttu&g_ep=EgoyMDI0MDkxNS4wIKXMDSoASAFQAw%3D%3D"
+                  label={"View full Map"}
+                  />
+
+                    </div>
+                    
+                    </div>
+  </div>
+  </div>
+    </section>
     </div>
     </section>
   )

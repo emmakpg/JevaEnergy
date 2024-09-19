@@ -9,8 +9,8 @@ const ManagementTeam = () => {
     <div>
       <Header
      pageTitle="Structure And Management"
-     imgURL="bg-building"
-     subText="Empowering Success through Shared Values."
+     imgURL="bg-structure"
+     subText="Efficient leadership driving strategic growth forward."
      />
 
 <section className="max-container  lg:py-32  sm:py-4">
