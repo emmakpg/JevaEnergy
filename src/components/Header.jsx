@@ -17,7 +17,7 @@ export const Header = ({pageTitle,subText,imgURL}) => {
                   <Divider divideColor={"bg-white"}/>
                   </div>
                             
-                  <h1 className="relative lg:text-4xl text-2xl px-5 font-medium text-sky-200 lg:text-7xl pt-8 lg:pt-0">{pageTitle}</h1>
+                  <h1 className="relative lg:text-4xl text-[30px] px-5 leading-8 font-medium text-sky-200 lg:text-7xl pt-8 lg:pt-0">{pageTitle}</h1>
                           
                   <p className="px-5 pt-5 lg:text-xl leading-normal font-normal text-gray-50 pb-8">{subText}</p>
 
