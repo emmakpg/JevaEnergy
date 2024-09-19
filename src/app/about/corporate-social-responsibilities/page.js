@@ -5,6 +5,7 @@ import { Header } from '@/components/Header'
 import Divider from '@/components/Divider'
 import PCard from '@/components/PCard'
 import { csr } from '@/constants'
+import Image from 'next/image'
 
 const CSR = () => {
   return (
@@ -20,7 +21,7 @@ const CSR = () => {
 
 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5">
 <div className="m-5">
-<div className="flex lg:mb-10 mb-4">
+<div className="flex lg:mb-10 mb-4 lg:mt-20">
 <Divider divideColor="bg-primary"/>
 </div>
   <p className="lg:text-lg font-thin ml-4">At Jeva Energies & Solutions, we are committed to creating a positive impact 
@@ -33,8 +34,18 @@ const CSR = () => {
 
 </div>
 
+<div className="">
+    <Image src="/assets/images/csr1.webp"
+    alt="core_values"
+    width={500}
+    height={500}
+    className="shadow-lg lg:rounded-lg"
+    />
+
+  </div>
 
 </div>
+
 
 </section>
 

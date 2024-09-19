@@ -325,8 +325,8 @@ export const transportation_sub=[
 
 export const csr=[
     {
-        title:"Girl Child Education",
-        value:`We support education through scholarships, mentorship programs, and infrastructure development, especially for young girls in underserved regions. These initiatives aim to empower girls with the knowledge and skills to succeed in various fields.`,
+        title:"Education for All",
+        value:`We support education through scholarships, mentorship programs, and infrastructure development, particularly for young learners in underserved regions. These initiatives aim to empower students with the knowledge and skills to succeed in various fields.`,
         imageURL:"/assets/images/girlchild.webp",
         
     },
