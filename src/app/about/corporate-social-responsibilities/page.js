@@ -37,8 +37,8 @@ const CSR = () => {
 <div className="">
     <Image src="/assets/images/csr1.webp"
     alt="core_values"
-    width={500}
-    height={500}
+    width={600}
+    height={600}
     className="shadow-lg lg:rounded-lg"
     />
 

@@ -327,7 +327,7 @@ export const csr=[
     {
         title:"Education for All",
         value:`We support education through scholarships, mentorship programs, and infrastructure development, particularly for young learners in underserved regions. These initiatives aim to empower students with the knowledge and skills to succeed in various fields.`,
-        imageURL:"/assets/images/girlchild.webp",
+        imageURL:"/assets/images/education.webp",
         
     },
     {
