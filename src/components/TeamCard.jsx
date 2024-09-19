@@ -5,7 +5,7 @@ const TeamCard = ({name,role,about}) => {
     <div className="bg-white shadow-md rounded-md  p-10 m-8">
        
           <div>
-            <h2 className="text-primary text-[28px] lead-4 font-medium lg:py-4">{name} - {role}</h2>
+            <h2 className="text-primary text-[28px] leading-8 font-medium py-4">{name} - {role}</h2>
             <p className="lg:text-lg font-thin leading-normal" style={{ whiteSpace: 'pre-wrap'}}>{about}</p>
           </div>
 
