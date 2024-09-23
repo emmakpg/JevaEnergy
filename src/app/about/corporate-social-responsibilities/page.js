@@ -99,7 +99,7 @@ const CSR = () => {
         
 
       
-      <div className='flex justify-center py-8'>
+      <div className='flex justify-center py-8 pl-8'>
       <Button label="Reach Out To Us" link="/contact-us"/>
       </div>
     </div>

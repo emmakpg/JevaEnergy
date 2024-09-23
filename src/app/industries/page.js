@@ -87,7 +87,7 @@ const Industries = () => {
 
     <div className="relative z-30">
       <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-20'></h6>
-      <div className="flex justify-center mt-5 pt-5 mb-10 xs:pt-8">
+      <div className="flex justify-center mt-5 pt-5 mb-10">
       <Divider divideColor="bg-white"/>
     </div>  
          
@@ -97,7 +97,7 @@ const Industries = () => {
         
 
       
-      <div className='flex justify-center py-8'>
+      <div className='flex justify-center py-8 pl-4'>
       <Button label="Reach Out To Us" link="/contact-us"/>
       </div>
     </div>
