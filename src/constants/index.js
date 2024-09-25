@@ -15,6 +15,7 @@ export const navLinks = [
         { href: "/about/management-team", label: "Our Management Team" },
         { href: "/about/corporate-social-responsibilities", label: "Corporate Social Responsibilities" }] },
     { href: "#services", label: "Services", submenuServices:[{ href: "/services//petroleum-supply-services", label: "Petroleum Supply Services" },
+        { href: "/services//marine-support-services", label: "Marine Support Services" },
         { href: "/services/consultancy-services/", label: "General Consultancy Services" },
         { href: "/services/equipment-supply-services", label: "Equipment/Material Supply Services" },
         { href: "/services/employee-recruitment-onboarding/", label: "Employee Recruitment & Onboarding" },
@@ -50,6 +51,12 @@ export const ServicesHome =[
     icon:"/assets/icons/equipment.png",
     link:"/services/equipment-supply-services",
     bImage:"bg-equipment-hero"
+},
+{
+    label:"Marine Support Services",
+    icon:"/assets/icons/marine1.png",
+    link:"/services/marine-support-services",
+    bImage:"bg-manpower"
 },
 {
     label:"General Consultancy Services",

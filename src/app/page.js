@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { carnas_medium } from "./layout";
 import { Services } from "@/sections/Services";
 import { Hero } from "@/sections/Hero";
 import { About } from "@/sections/About";

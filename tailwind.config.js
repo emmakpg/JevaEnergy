@@ -25,12 +25,7 @@ module.exports = {
        
       },
       backgroundImage: {
-        'hs_marine': "url('/assets/images/marine.')",
-        'hs_equipment': "url('/assets/images/equipment')",
-        'hs_consultancy': "url('/assets/images/consultancy')",
-        'hs_onboarding': "url('/assets/images/onboarding')",
-        'hs_protocol': "url('/assets/images/protocol')",
-        'pg_marine': "url('/assets/images/pg_marine.webp')",
+        'marine': "url('/assets/images/marine1.webp')",
         'pg_equipment': "url('/assets/images/pg_equipment.webp')",
         'pg_consultancy': "url('/assets/images/pg_consultancy.webp')",
         'pg_onboarding': "url('/assets/images/pg_onboarding.webp')",
