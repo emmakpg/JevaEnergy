@@ -12,7 +12,7 @@ const MarineSupport = () => {
   <Header
    pageTitle="Marine Support Services"
    imgURL="bg-marine"
-   subText="At Jeva Energies & Solutions, we are committed to creating a positive impact beyond our core oil and gas business."
+   subText="Optimizing Maritime Operations with Precision and Expertise"
    />
 
 <section className="max-container  lg:py-32  sm:py-4">
@@ -22,9 +22,12 @@ const MarineSupport = () => {
 <div className="flex lg:mb-10 mb-4 lg:mt-20">
 <Divider divideColor="bg-primary"/>
 </div>
-  <p className="lg:text-lg font-thin ml-4">At Jeva Energies & Solutions, we are committed to creating a positive impact 
-    beyond our core oil and gas business. Our Corporate Social Responsibility (CSR) initiatives focus on education, health, sanitation, 
-    and environmental stewardship, aimed at fostering sustainable community development.</p>
+
+
+  <p className="lg:text-lg font-thin ml-4">At Jeva Energies & Solutions, we deliver comprehensive marine support services designed
+     to meet the complex demands of the maritime industry. Our services span the supply, installation, and maintenance of essential marine
+      equipment, coupled with expert logistics solutions. With a focus on operational efficiency,
+     safety, and reliability, we ensure seamless maritime operations for our clients.</p>
 
 
         
