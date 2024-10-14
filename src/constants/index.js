@@ -233,20 +233,84 @@ export const marine_support=[
     
 ]
 
+export const petrol_supply=[
+    {
+        title:"Fuels for Industrial, Commercial, and Domestic Use",
+        value:`We supply a variety of fuels to keep your operations running efficiently, from automotive to heavy machinery and household needs`,
+        imageURL:"/assets/images/filling.webp",
+        link:"/services/petroleum-supply-services/fuel-industrial-commercial-domestic-use"
+    },
+    {
+        title:"Industrial Oils, Lubricants, and Specialty Products",
+        value:"Maximize the efficiency and lifespan of your machinery with our premium-grade industrial oils and lubricants",
+        imageURL:"/assets/images/lubricant.webp",
+        link:"/services/petroleum-supply-services/industrial-oils-lubricants-and-specialty-products"
+    },
+    {
+        title:"Asphalt, Waxes, and Petroleum Derivatives",
+        value:"Jeva Energies & Solutions provides essential products for infrastructure, manufacturing, and industrial processes"
+        ,imageURL:"/assets/images/asphalt.webp",
+        link:"/services/petroleum-supply-services/asphalt-waxes-petroleum-derivatives"
+    },
+    {
+        title:"Specialty and Refinery Products",
+        value:`We also supply specialty products and refinery fractions essential for refining and petrochemical operations`
+        ,imageURL:"/assets/images/bulk.webp",
+        link:"/services/petroleum-supply-services/specialty-refinery-products",
+    },
+    
+]
+
+
+export const man_supply=[
+    {
+        title:"Skilled Professionals",
+        value:`Expertise Across Multiple Industries`,
+        imageURL:"/assets/images/skilled_prof.webp",
+        link:"/services/employee-recruitment-onboarding/skilled-professionals"
+    },
+    {
+        title:"Skilled Labor",
+        value:"High-Quality Performance ",
+        imageURL:"/assets/images/skilled_labor.webp",
+        link:"/services/employee-recruitment-onboarding/skilled-labor"
+    },
+    {
+        title:"Unskilled Labor",
+        value:"Dependable Support for General Tasks",
+        imageURL:"/assets/images/unskilled_labor.webp",
+        link:"/services/employee-recruitment-onboarding/unskilled-labor"
+    },
+   
+]
+
+
 
 
 export const protocol_logistics=[
     {
-        title:"Transportation and Protocol Services",
-        value:`At Jeva Energies & Solutions, we offer a full suite of protocol and logistics services designed to meet the diverse needs of our clients across various industries. Our services ensure seamless transportation, efficient supply chain management, and tailored support to enhance operational efficiency and reduce costs.`,
+        title:"VIP Protocol Services",
+        value:`Elite Treatment from Start to Finish`,
         imageURL:"/assets/images/transportation.webp",
-        link:"/services/protocol-services/transportation-services"
+        link:"/services/protocol-services/VIP-protocol-services"
     },
     {
-        title:"Logistics Services",
-        value:"Jeva Energies & Solutions offers comprehensive logistics services to support industries operating in remote locations. From the transport of personnel and bulky equipment to hazardous materials, our solutions are designe to keep your projects on track from initial planning to final delivery.",
+        title:"Tailored Travel & Logistics Solutions",
+        value:"End-to-End Management with a Personal Touch",
         imageURL:"/assets/images/logistics1.webp",
-        link:"/services/protocol-services/logistics-services"
+        link:"/services/protocol-services/tailored-travel-logistics-solutions"
+    },
+    {
+        title:"Meet & Greet Services",
+        value:"Warm Welcomes, Lasting Impressions",
+        imageURL:"/assets/images/logistics1.webp",
+        link:"/services/protocol-services/meet-and-greet-services"
+    },
+    {
+        title:"Warehousing, Shipping & Haulage",
+        value:"End-to-End Logistics to Keep You on Track",
+        imageURL:"/assets/images/logistics1.webp",
+        link:"/services/protocol-services/warehousing-shipping-haulage"
     },
 ]
 

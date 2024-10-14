@@ -4,8 +4,8 @@ import { Header } from "@/components/Header"
 import Divider from "@/components/Divider"
 import Image from "next/image"
 import Button from "@/components/Button"
-import { petroleum_supply } from "@/constants"
-import PCard from "@/components/PCard"
+import { petrol_supply } from "@/constants"
+import Card from "@/components/Card"
 
 
 
@@ -16,7 +16,7 @@ const MarineServices = () => {
     <Header
      pageTitle="Petroleum Supply Services"
      imgURL="bg-petrolhead"
-     subText="Provide essential logistical and operational support for offshore oil and gas activities"
+     subText="Powering Industries with Reliable Energy Solutions"
      />
 
 <section className="max-container  lg:py-32  sm:py-4">
@@ -26,22 +26,17 @@ const MarineServices = () => {
   <div className="flex  mt-10">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary lg:text-[35px] text-[25px] xs:leading-8 font-medium m-6 ml-4">Ensure Uninterrupted Operations</h2>
 
-    <p className="lg:text-lg font-thin ml-4">For industries relying on a steady supply of petroleum products, Jeva Energies & Solutions 
-      offers comprehensive services to ensure your operations remain uninterrupted. Whether it&apos;s bulk supply, filling stations, or specialized 
-      deliveries for the mining and other industries, our expertise guarantees a consistent and high-quality fuel supply.
-       From initial consultation to final delivery, we provide tailored solutions to 
-      meet your unique needs and keep your projects running smoothly.</p>
-
-    <p className="lg:text-lg font-thin ml-4 py-4">We provide a reliable and consistent supply of refined petroleum products.
-       Our extensive distribution network ensures that our clients receive high-quality products on time, every time.</p>
+    <p className="lg:text-lg font-thin ml-4 mt-6">At Jeva Energies & Solutions, we provide a comprehensive portfolio of petroleum products designed to 
+      meet the diverse energy needs of industries worldwide. Our dedication to quality and service ensures that our clients receive the 
+      highest-grade fuels, lubricants, and petroleum derivatives to optimize their operations. We serve industrial, commercial, 
+      and domestic sectors with reliable energy solutions tailored to their specific needs.</p>
           
 
 
   </div>
   <div>
-    <div className="lg:mt-12 py-10">
+    <div className="lg:mt-2 py-10">
       <Image src="/assets/images/petroleum.webp"
       alt="core_values"
       width={700}
@@ -57,32 +52,29 @@ const MarineServices = () => {
 
 </section>
 
-<section className="sm:py-4 bg-[#f5f5f5] lg:py-16">
+<section className="py-4 bg-[#f5f5f5] lg:py-16">
 
 <div className="max-container">
 
-<div className="max-container grid sm:grid-cols-1 md:grid-cols-1 gap-10">
-        {
-          petroleum_supply.map((item,index)=>(
-            <div key={index}>
-              <PCard
-              imageUrl={item.imageURL}
-              label={item.title}
-              value={item.value}
-              />
-              </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-10">
+   {petrol_supply.map((item)=>(
+   
+      <Card
+      key={item.title}
+      title={item.title}
+      caption={item.value}
+      imageURL={item.imageURL}
+      link={item.link}
+      
+      />
 
-          ))
-        }
+    
 
-        <div>
-          
-          
-        </div>
-        
-      </div>
+   ))
 
+}
 
+  </div>
 
 
 </div>
@@ -101,9 +93,10 @@ const MarineServices = () => {
     </div>  
          
       <p className='max-container text-center lg:text-lg leading-normal lg:pt-4 font-thin text-white'>
-        At Jeva Energies & Solutions, we are dedicated to raising industry standards by combining local knowledge with global expertise. Our mission is to foster sustainable growth and operational excellence across Africa,
-         setting new standards for innovation and reliability in the energy sector. 
-        If you&apos;re interested in partnering with us or learning more about how we can contribute to your success, please don&apos;t hesitate to reach out. </p>
+        At Jeva Energies & Solutions, we are committed to delivering high-quality, reliable petroleum products that drive operational efficiency
+         and business growth. Whether you&apos;re seeking industrial fuels, lubricants, or specialized petroleum derivatives, we are your trusted partner
+        for all your energy needs. Choose Jeva Energies & Solutions for top-tier products and services that fuel your success.
+        </p>
           
 
         

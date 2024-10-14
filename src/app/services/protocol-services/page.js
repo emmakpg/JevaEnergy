@@ -12,7 +12,7 @@ const ProtocolServices = () => {
     <Header
      pageTitle="Protocol & Logistics Services"
      imgURL="bg-pg_protocol"
-     subText="Our protocol and logistics services ensure seamless transportation and logistical support for focused industry operations."
+     subText="Your ultimate solution for transportation, warehousing, shipping, and travel"
      />
 
 <section className="max-container  lg:py-32  sm:py-4">
@@ -22,18 +22,21 @@ const ProtocolServices = () => {
   <div className="flex  mt-10">
   <Divider divideColor="bg-primary"/>
   </div>
-    <h2 className="text-primary lg:text-[35px] text-[25px] leading-7 lg:leading-10 font-medium m-6 ml-4">Comprehensive Transportation and Logistical Support</h2>
+    <h2 className="text-primary lg:text-[35px] text-[25px] leading-7 lg:leading-10 font-medium m-6 ml-4">Efficient, Reliable, and Seamless Every Step of the Way</h2>
 
-    <p className="lg:text-lg font-thin leading-normal ml-4">At Jeva Energies & Solutions, we offer a full suite of protocol and logistics services 
-      designed to meet the diverse needs of our clients across various industries. Our services ensure seamless transportation, efficient
-       supply chain management, and tailored support to enhance operational efficiency and reduce costs.</p>
+    <p className="lg:text-lg font-thin leading-normal ml-4">
+    At Jeva Energies & Solutions, we go beyond expectations to provide a full spectrum of protocol and logistics services that cater to both
+     businesses and individuals. Whether you need reliable transportation, efficient warehousing, expert shipping, or smooth travel solutions,
+    we&apos;ve got you covered. Our commitment to delivering convenience, professionalism, and precision allows you to focus on what truly matters—your business—while we take care of the logistics.
+
+    </p>
 
   </div>
   <div>
     
   <div className="lg:mt-4">
     <Image src="/assets/images/tls.webp"
-    alt="core_values"
+    alt="protocol_logistics"
     width={700}
     height={700}
     className="shadow-lg lg:rounded-lg"
@@ -51,7 +54,7 @@ const ProtocolServices = () => {
 
 <div className="max-container">
 
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10 px-10">
+<div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-10 px-10">
    {protocol_logistics.map((item)=>(
    
       <Card
