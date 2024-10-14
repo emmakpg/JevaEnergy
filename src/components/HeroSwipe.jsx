@@ -34,12 +34,12 @@ const HeroSwipe = () => {
 
 <SwiperSlide key={index}>
 <div>
-              <h1 className="lg:text-[55px] text-4xl font-medium text-white leading-10 xs:text-[40px] pt-16" >
+              <h1 className="lg:text-[65px] text-4xl font-medium text-white  pt-16" >
                   {item.title}
                   
               </h1>
 
-              <p className="mt-8 xs:mt-3 text-base text-slate-100 leading-normal sm:text-xl">{item.text}</p>
+              <p className="mt-8 text-slate-100 leading-normal lg:text-lg">{item.text}</p>
             </div>
 </SwiperSlide>
         ))

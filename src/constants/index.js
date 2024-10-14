@@ -172,32 +172,67 @@ export const core_values=[
 
 export const equipment_supply=[
     {
-        title:"Hydraulic Hoses",
-        value:`Engineered for high-pressure hydraulic fluids, ideal for machinery and equipment.`,
-        imageURL:"/assets/images/hoses.webp",
-        link:"/services/equipment-supply-services/hydraulic-hoses"
+        title:"IT and Office Solutions",
+        value:`Optimizing Administrative Efficiency`,
+        imageURL:"/assets/images/it_office.webp",
+        link:"/services/equipment-supply-services/IT-office-solutions"
     },
     {
-        title:"Bolt & Fittings",
-        value:"Precision-engineered bolt-on fittings guarantee the integrity and secure operation of your high-pressure systems, including pressure vessels and pipelines.",
-        imageURL:"/assets/images/bolt.webp",
-        link:"/services/equipment-supply-services/bolt-fittings"
+        title:"Communication and Connectivity",
+        value:"Ensuring Seamless Field Operations",
+        imageURL:"/assets/images/connectivity.webp",
+        link:"/services/equipment-supply-services/communication-and-connectivity"
     },
     {
-        title:"Advanced System & On-Site Workshop Services",
-        value:"Fully equipped mobile workshops for repair and maintenance tasks, minimizing operational disruptions."
-        ,imageURL:"/assets/images/workshop.webp",
-        link:"/services/equipment-supply-services/advanced-system-onsite-workshop-services"
+        title:"Parts and Chemicals Supply",
+        value:"Supporting Continuous Operations"
+        ,imageURL:"/assets/images/part_n_chem.webp",
+        link:"/services/equipment-supply-services/parts-and-chemicals-supply"
     },
     {
-        title:"Office Supplies",
-        value:`A comprehensive range of essential items to support efficient office operations,
-         including stationery, printing materials, and organizational tools.`
+        title:"Office Equipment and Workplace Appliances",
+        value:`Enhancing Workplace Efficiency and Comfort`
         ,imageURL:"/assets/images/office.webp",
-        link:"/services/equipment-supply-services/office-supplies",
+        link:"/services/equipment-supply-services/office-appliances",
+    },
+    {
+        title:"Specialized Services",
+        value:`Expert Solutions for Industry Demands`
+        ,imageURL:"/assets/images/specialized.webp",
+        link:"/services/equipment-supply-services/specialized-services",
     },
     
 ]
+
+
+export const marine_support=[
+    {
+        title:"Marine Equipment Supply and Installation",
+        value:`Enhancing Vessel Performance`,
+        imageURL:"/assets/images/marine_equipment.webp",
+        link:"/services/marine-support-services/marine-equipment-supply-and-installation"
+    },
+    {
+        title:"Marine Logistics and Brokerage",
+        value:"Streamlined Maritime Solutions",
+        imageURL:"/assets/images/marine_logistics.webp",
+        link:"/services/marine-support-services/marine-logistics-and-brokerage"
+    },
+    {
+        title:"Ships Channelling",
+        value:"Comprehensive Vessel Support"
+        ,imageURL:"/assets/images/ship_channelling.webp",
+        link:"/services/marine-support-services/ships-channelling"
+    },
+    {
+        title:"Maintenance and Support",
+        value:`Sustaining Operational Reliability`
+        ,imageURL:"/assets/images/marine_maintenance.webp",
+        link:"/services/marine-support-services/maintenance-support",
+    },
+    
+]
+
 
 
 export const protocol_logistics=[

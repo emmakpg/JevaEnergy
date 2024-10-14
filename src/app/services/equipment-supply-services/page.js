@@ -23,10 +23,10 @@ const EquipmentSupply = () => {
   <Divider divideColor="bg-primary"/>
   </div>
 
-    <p className="lg:text-lg font-thin leading-normal ml-4">Jeva Energies & Solutions specializes in the supply and installation of critical oil
-       field equipment, including computers, communication devices, and personal protective equipment. We provide a wide range of high-quality
-        equipment and materials necessary for focused industry needs,
-       supported by our extensive network of suppliers and manufacturers. Our offerings include:</p>
+    <p className="lg:text-lg font-thin leading-normal ml-4">At Jeva Energies & Solutions, we are dedicated to providing comprehensive
+       equipment and material supply services, meticulously tailored to meet the unique demands of the oil and gas industry. 
+       Our goal is to enhance your operational efficiency through the supply of high-quality products and timely services. 
+      We offer a wide range of solutions, categorized to meet your specific requirements.</p>
           
 
 
@@ -78,6 +78,38 @@ const EquipmentSupply = () => {
 </section>
 
 
+<section className="">
+      <div className="relative bg-equipment-hero w-full h-[500px] bg-cover bg-center">
+      <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
+      
+
+      <div className="relative z-30">
+        <h6 className='uppercase text-sky-300 text-lg text-center lg:pt-24 pt-8'>Take the Next Step</h6>
+        <div className="flex justify-center mt-5 mb-10">
+        <Divider divideColor="bg-white"/>
+      </div>  
+           
+        <p className='max-container text-center lg:text-lg leading-normal lg:pt-4 font-thin text-white'>
+        At Jeva Energies & Solutions, we are committed to delivering reliable, cost-effective, and high-quality solutions that help your
+         business thrive. By partnering with us, you gain a dedicated ally focused on enhancing your operational efficiency and achieving your 
+         business goals. Let us be your trusted provider for all your equipment and material supply needs.
+        </p>
+          
+
+        
+        <div className='flex justify-center py-8 mt-8 xs:m-0'>
+        <Button label="Reach Out To Us" link="/contact-us"/>
+        </div>
+      </div>
+
+    
+     
+
+     
+      
+    </div>
+      
+    </section>
 </div>
   )
 }
