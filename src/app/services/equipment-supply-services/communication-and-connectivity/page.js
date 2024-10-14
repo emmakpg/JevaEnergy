@@ -25,8 +25,11 @@ const BoltFitting = () => {
 
      <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Communication Equipment</h2>
 <p className="lg:text-lg font-thin leading-normal ml-4">
-We offer advanced communication systems that guarantee reliable 
-connectivity across your field operations, promoting effective collaboration.
+We provide cutting-edge communication systems designed to ensure seamless and reliable connectivity across all your field operations. 
+Our solutions promote real-time collaboration, enabling your teams to communicate effortlessly, whether they are on-site, in remote locations, 
+or across different branches. With our advanced technology, you can enhance operational efficiency, reduce downtime, and improve decision-making 
+processes by fostering quick and clear information exchange. Our systems are built for reliability, ensuring that your field operations stay 
+connected even in the most challenging environments, supporting the smooth execution of your projects.
 </p>
 
 
@@ -35,7 +38,7 @@ connectivity across your field operations, promoting effective collaboration.
 
 
 </div>
-<div className='lg:mt-12'>
+<div className=''>
   <div className="lg:mt-10">
     <Image src="/assets/images/communication.webp"
     alt="core_values"

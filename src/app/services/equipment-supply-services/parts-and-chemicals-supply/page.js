@@ -35,19 +35,9 @@ Our premium-quality chemicals are tailored to meet the rigorous standards of the
 
 
 
-<h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Office Stationery</h2>
-<p className="lg:text-lg font-thin leading-normal ml-4">
-Our extensive range of office supplies ensures that your administrative tasks are streamlined for daily operations.</p>
-
-
-
-
-        
-
-
 </div>
-<div className='lg:mt-10'>
-  <div className="lg:mt-10">
+<div className=''>
+  <div className="lg:mt-2">
     <Image src="/assets/images/parts.webp"
     alt="core_values"
     width={600}
