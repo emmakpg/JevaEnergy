@@ -25,7 +25,7 @@ const UnskilledLabor = () => {
 <p className="lg:text-lg font-thin leading-normal ml-4 m-6">
 For positions that require less specialized skills, we offer a reliable and hardworking unskilled labor force.
 From general support tasks to on-site assistance, our laborers ensure the smooth day-to-day execution of your projects, 
-contributing to your business's overall success.
+contributing to your business&apos;s overall success.
 </p>
 
 <h2 className="text-primary lg:text-2xl text-lg font-medium m-6 ml-4">Workforce Flexibility and Efficiency</h2>
