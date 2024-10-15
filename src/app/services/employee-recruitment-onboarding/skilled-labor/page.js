@@ -24,7 +24,7 @@ const SkilledLabor = () => {
   
 
 <p className="lg:text-lg font-thin leading-normal ml-4 m-6">
-Our skilled labor pool is handpicked for roles requiring specialized technical skills. Whether it's in construction, manufacturing, 
+Our skilled labor pool is handpicked for roles requiring specialized technical skills. Whether it&apos;s in construction, manufacturing, 
 or technical services, our workers deliver high-quality performance,driving productivity and maintaining safety standards on-site.
 </p>
 
