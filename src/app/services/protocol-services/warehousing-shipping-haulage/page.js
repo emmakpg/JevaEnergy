@@ -21,7 +21,7 @@ const WareHousing = () => {
   
 
   <p className="lg:text-lg font-thin leading-normal ml-4 m-6">
-  We don't just move people—we move products too. Our warehousing solutions ensure secure storage of your goods, while our expert shipping and haulage services guarantee timely delivery across the globe. Whether it’s heavy machinery,
+  We don&apos;t just move people—we move products too. Our warehousing solutions ensure secure storage of your goods, while our expert shipping and haulage services guarantee timely delivery across the globe. Whether it’s heavy machinery,
    temperature-sensitive items, or everyday goods, we handle every aspect of your logistics with precision.
   </p>
   
