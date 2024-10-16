@@ -4,86 +4,55 @@ import Divider from '@/components/Divider'
 import RCard from '@/components/RCard'
 import { transportation_sub } from '@/constants'
 
-const Transportation = () => {
+const TailoredTravel = () => {
   return (
    
-  <div>
-  <Header
-   pageTitle="Transportation and Protocol Services"
-   imgURL="bg-transport"
-   subText="We provide a well-maintained fleet of vehicles, ranging from sedans and SUVs to
-     trucks and specialized vehicles, all available for lease or rental."
-   />
-
-<section className="max-container  lg:py-32  sm:py-4">
-
-<div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5">
-<div className="m-5">
-<div className="flex  mt-10 lg:mb-10 mb-4">
-<Divider divideColor="bg-primary"/>
-</div>
-
-  <p className="lg:text-lg font-thin leading-normal ml-4">We provide a well-maintained fleet of vehicles, ranging from sedans and SUVs to
-     trucks and specialized vehicles, all available for lease or rental. Our flexible leasing options, coupled with advanced vehicle tracking systems, allow for real-time monitoring, route optimization, and proactive maintenance. Additionally, our protocol services include driver management, immigration assistance, lounge access, airline bookings,
-     and hotel arrangements, ensuring a smooth and secure travel experience.</p>
-
-
-        
-
-
-</div>
-<div>
-  <div className="lg:mt-5">
-    <Image src="/assets/images/transportation1.webp"
-    alt="services"
-    width={700}
-    height={700}
-    className="shadow-lg rounded-lg"
-    />
-
+    <div>
+    <Header
+     pageTitle="Tailored Travel & Logistics Solutions"
+     imgURL="bg-logistics-hero"
+     subText="End-to-End Management with a Personal Touch"
+     />
+  
+  <section className="max-container  lg:py-32  sm:py-4">
+  
+  <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5">
+  <div className="m-5">
+  <div className="flex  mt-10">
+  <Divider divideColor="bg-primary"/>
   </div>
- 
-</div>
+  
 
-</div>
-
-</section>
-
-<section className="py-5 bg-[#f5f5f5] lg:py-16">
-
-<div className="max-container">
-
-<div className="grid sm:grid-cols-1 md:grid-cols-2 gap-10">
-        {
-          transportation_sub.map((item,index)=>(
-            <div key={index}>
-              <RCard
-              imageUrl={item.imageURL}
-              label={item.title}
-              value={item.value}
-              />
-              </div>
-
-          ))
-        }
-
-        <div>
-          
-          
-        </div>
-        
-      </div>
-
-
-
-</div>
-
-</section>
-
-
+  <p className="lg:text-lg font-thin leading-normal ml-4 m-6">
+  Working with trusted travel agencies, we handle everything from flight bookings to accommodations and itinerary planning. Whether it’s local or international, we take the complexity out of travel, 
+  ensuring every trip is effortless and enjoyable from beginning to end.
+  </p>
+  
+  
+  </div>
+  <div className=''>
+    <div className="">
+      <Image src="/assets/images/vip1.webp"
+      alt="core_values"
+      width={600}
+      height={600}
+      className="shadow-lg lg:rounded-lg"
+      />
+  
+    </div>
    
-</div>
+  </div>
+  
+  </div>
+  
+  </section>
+  
+  
+  
+  
+     
+  </div>
   )
 }
 
-export default Transportation
+export default TailoredTravel

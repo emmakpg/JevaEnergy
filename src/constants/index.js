@@ -291,7 +291,7 @@ export const protocol_logistics=[
     {
         title:"VIP Protocol Services",
         value:`Elite Treatment from Start to Finish`,
-        imageURL:"/assets/images/transportation.webp",
+        imageURL:"/assets/images/vip.webp",
         link:"/services/protocol-services/VIP-protocol-services"
     },
     {
@@ -303,13 +303,13 @@ export const protocol_logistics=[
     {
         title:"Meet & Greet Services",
         value:"Warm Welcomes, Lasting Impressions",
-        imageURL:"/assets/images/logistics1.webp",
+        imageURL:"/assets/images/meet_greet.webp",
         link:"/services/protocol-services/meet-and-greet-services"
     },
     {
         title:"Warehousing, Shipping & Haulage",
         value:"End-to-End Logistics to Keep You on Track",
-        imageURL:"/assets/images/logistics1.webp",
+        imageURL:"/assets/images/warehouse.webp",
         link:"/services/protocol-services/warehousing-shipping-haulage"
     },
 ]
